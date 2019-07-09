@@ -1,0 +1,6 @@
+framework module Pods_Adam_20190709_U17UITests {
+  umbrella header "Pods-Adam_20190709_U17UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
