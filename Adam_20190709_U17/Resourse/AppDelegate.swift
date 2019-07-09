@@ -8,16 +8,63 @@
 
 import UIKit
 import CoreData
+import Alamofire
+import IQKeyboardManagerSwift
+import UINavigation_SXFixSpace_Swift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    
+    lazy var reachability: NetworkReachabilityManager? = {
+        return NetworkReachabilityManager(host: "http://app.u17.com")
+    }()
+    
+    var orientation: UIInterfaceOrientationMask = .portrait
+    
+    internal func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        configBase()
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.backgroundColor = UIColor.white
+        window?.rootViewController = UITabBarController()
+        window?.makeKeyAndVisible()
+        // MARK: - 修正齐刘海
+        
+        
         return true
+    }
+    
+    func configBase() {
+        // MARK: - 键盘处理
+        IQKeyboardManager.shared.enable = true
+        IQKeyboardManager.shared.shouldResignOnTouchOutside = true
+        
+        // MARK: - 导航栏间距调整
+        UINavigationSXFixSpace.shared.sx_defultFixSpace = 8
+        //        UINavigationSXFixSpace.shared.sx_fix
+        // MARK: - 性别缓存
+        let defaults = UserDefaults.standard
+        if defaults.value(forKey: String.sexTypeKey) == nil {
+            defaults.set(1, forKey: String.sexTypeKey)
+            defaults.synchronize()
+        }
+        
+        // MARK: - 网络监控
+        reachability?.listener = { status in
+            switch status {
+            case .reachable(.wwan):
+                UNoticeBar(config: UNoticeBarConfig(title:"主人,检测到您正在使用移动数据")).show(duration: 2)
+            default: break
+            }
+        }
+        reachability?.startListening()
+    }
+    
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return orientation
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
