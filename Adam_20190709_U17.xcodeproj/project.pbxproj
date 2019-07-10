@@ -30,6 +30,13 @@
 		7AB97FBC22D4675B0079013B /* DispatchQueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FAE22D4675B0079013B /* DispatchQueueExtension.swift */; };
 		7AB97FBD22D4675B0079013B /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FAF22D4675B0079013B /* StringExtension.swift */; };
 		7AB97FBE22D4675B0079013B /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FB022D4675B0079013B /* DictionaryExtension.swift */; };
+		7AB97FC122D46A5C0079013B /* UCollectionViewAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FC022D46A5C0079013B /* UCollectionViewAlignedLayout.swift */; };
+		7AB97FC322D480B70079013B /* UCollectionViewSectionBackgroundLayoutLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FC222D480B70079013B /* UCollectionViewSectionBackgroundLayoutLayout.swift */; };
+		7AB97FC622D5C72D0079013B /* URefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FC522D5C72D0079013B /* URefresh.swift */; };
+		7AB97FC922D5CC170079013B /* UEmptyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FC822D5CC170079013B /* UEmptyDataSet.swift */; };
+		7AB97FCD22D5D36C0079013B /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FCC22D5D36C0079013B /* ParallaxHeaderMode.swift */; };
+		7AB97FCF22D5D3CE0079013B /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FCE22D5D3CE0079013B /* UIScrollView+ParallaxHeader.swift */; };
+		7AB97FD122D5D4750079013B /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FD022D5D4750079013B /* ParallaxHeader.swift */; };
 		96E433C6E8CF915C140DD95E /* Pods_Adam_20190709_U17Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE49871A452F8A3485BE17C /* Pods_Adam_20190709_U17Tests.framework */; };
 		BCCABD8B10150A42309FFDFA /* Pods_Adam_20190709_U17.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C097D29720AE99E77C669F9 /* Pods_Adam_20190709_U17.framework */; };
 /* End PBXBuildFile section */
@@ -73,7 +80,7 @@
 		7AB97F9A22D467400079013B /* HYAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYAPI.swift; sourceTree = "<group>"; };
 		7AB97F9E22D4675A0079013B /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		7AB97FA222D4675A0079013B /* UHairPowder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UHairPowder.swift; sourceTree = "<group>"; };
-		7AB97FA422D4675A0079013B /* UModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UModel.swift; sourceTree = "<group>"; };
+		7AB97FA422D4675A0079013B /* UModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UModel.swift; path = ../../Model/UModel.swift; sourceTree = "<group>"; };
 		7AB97FA622D4675A0079013B /* UNoticeBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UNoticeBar.swift; sourceTree = "<group>"; };
 		7AB97FA822D4675B0079013B /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		7AB97FA922D4675B0079013B /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
@@ -84,6 +91,13 @@
 		7AB97FAE22D4675B0079013B /* DispatchQueueExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueExtension.swift; sourceTree = "<group>"; };
 		7AB97FAF22D4675B0079013B /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		7AB97FB022D4675B0079013B /* DictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		7AB97FC022D46A5C0079013B /* UCollectionViewAlignedLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCollectionViewAlignedLayout.swift; sourceTree = "<group>"; };
+		7AB97FC222D480B70079013B /* UCollectionViewSectionBackgroundLayoutLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCollectionViewSectionBackgroundLayoutLayout.swift; sourceTree = "<group>"; };
+		7AB97FC522D5C72D0079013B /* URefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URefresh.swift; sourceTree = "<group>"; };
+		7AB97FC822D5CC170079013B /* UEmptyDataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UEmptyDataSet.swift; sourceTree = "<group>"; };
+		7AB97FCC22D5D36C0079013B /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderMode.swift; sourceTree = "<group>"; };
+		7AB97FCE22D5D3CE0079013B /* UIScrollView+ParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ParallaxHeader.swift"; sourceTree = "<group>"; };
+		7AB97FD022D5D4750079013B /* ParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
 		AB52CB99CCE87CD778A292CD /* Pods-Adam_20190709_U17Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20190709_U17Tests.debug.xcconfig"; path = "Target Support Files/Pods-Adam_20190709_U17Tests/Pods-Adam_20190709_U17Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD091536EA300B5F8580F684 /* Pods-Adam_20190709_U17UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20190709_U17UITests.release.xcconfig"; path = "Target Support Files/Pods-Adam_20190709_U17UITests/Pods-Adam_20190709_U17UITests.release.xcconfig"; sourceTree = "<group>"; };
 		E6E7B6495F8B7A0FE0E40CDA /* Pods-Adam_20190709_U17.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20190709_U17.release.xcconfig"; path = "Target Support Files/Pods-Adam_20190709_U17/Pods-Adam_20190709_U17.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +183,7 @@
 			children = (
 				7AB97F9922D467400079013B /* API */,
 				7AB97FA022D4675A0079013B /* Component */,
+				7AB97FA322D4675A0079013B /* Model */,
 				7AB97FA722D4675B0079013B /* Extension */,
 				7AB97F9C22D4675A0079013B /* Model */,
 				7AB97F9D22D4675A0079013B /* Procedure */,
@@ -235,8 +250,11 @@
 		7AB97FA022D4675A0079013B /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				7AB97FCB22D5D34B0079013B /* ParallaxHeader */,
+				7AB97FC722D5CC0E0079013B /* EmptyDataSet */,
+				7AB97FC422D5C71C0079013B /* Refresh */,
+				7AB97FBF22D46A160079013B /* CollectionViewLayout */,
 				7AB97FA122D4675A0079013B /* HairPowder */,
-				7AB97FA322D4675A0079013B /* Model */,
 				7AB97FA522D4675A0079013B /* NoticeBar */,
 			);
 			path = Component;
@@ -255,7 +273,8 @@
 			children = (
 				7AB97FA422D4675A0079013B /* UModel.swift */,
 			);
-			path = Model;
+			name = Model;
+			path = Component/Model;
 			sourceTree = "<group>";
 		};
 		7AB97FA522D4675A0079013B /* NoticeBar */ = {
@@ -280,6 +299,41 @@
 				7AB97FB022D4675B0079013B /* DictionaryExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		7AB97FBF22D46A160079013B /* CollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				7AB97FC022D46A5C0079013B /* UCollectionViewAlignedLayout.swift */,
+				7AB97FC222D480B70079013B /* UCollectionViewSectionBackgroundLayoutLayout.swift */,
+			);
+			path = CollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		7AB97FC422D5C71C0079013B /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				7AB97FC522D5C72D0079013B /* URefresh.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		7AB97FC722D5CC0E0079013B /* EmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				7AB97FC822D5CC170079013B /* UEmptyDataSet.swift */,
+			);
+			path = EmptyDataSet;
+			sourceTree = "<group>";
+		};
+		7AB97FCB22D5D34B0079013B /* ParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				7AB97FCC22D5D36C0079013B /* ParallaxHeaderMode.swift */,
+				7AB97FCE22D5D3CE0079013B /* UIScrollView+ParallaxHeader.swift */,
+				7AB97FD022D5D4750079013B /* ParallaxHeader.swift */,
+			);
+			path = ParallaxHeader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -504,8 +558,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AB97FB622D4675B0079013B /* ArrayExtensions.swift in Sources */,
+				7AB97FC322D480B70079013B /* UCollectionViewSectionBackgroundLayoutLayout.swift in Sources */,
 				7AB97FB322D4675B0079013B /* UHairPowder.swift in Sources */,
+				7AB97FCF22D5D3CE0079013B /* UIScrollView+ParallaxHeader.swift in Sources */,
 				7AB97F6822D464610079013B /* ViewController.swift in Sources */,
+				7AB97FC122D46A5C0079013B /* UCollectionViewAlignedLayout.swift in Sources */,
 				7AB97F9B22D467400079013B /* HYAPI.swift in Sources */,
 				7AB97F6E22D464610079013B /* Adam_20190709_U17.xcdatamodeld in Sources */,
 				7AB97FB922D4675B0079013B /* UIBarButtonItemExtension.swift in Sources */,
@@ -514,10 +571,14 @@
 				7AB97FBE22D4675B0079013B /* DictionaryExtension.swift in Sources */,
 				7AB97FB522D4675B0079013B /* UNoticeBar.swift in Sources */,
 				7AB97FBC22D4675B0079013B /* DispatchQueueExtension.swift in Sources */,
+				7AB97FC622D5C72D0079013B /* URefresh.swift in Sources */,
 				7AB97FB422D4675B0079013B /* UModel.swift in Sources */,
 				7AB97FB722D4675B0079013B /* UIColorExtension.swift in Sources */,
+				7AB97FC922D5CC170079013B /* UEmptyDataSet.swift in Sources */,
 				7AB97FBA22D4675B0079013B /* UIDeviceExtension.swift in Sources */,
+				7AB97FCD22D5D36C0079013B /* ParallaxHeaderMode.swift in Sources */,
 				7AB97FBB22D4675B0079013B /* UIImageExtensions.swift in Sources */,
+				7AB97FD122D5D4750079013B /* ParallaxHeader.swift in Sources */,
 				7AB97FB122D4675B0079013B /* Global.swift in Sources */,
 				7AB97F6622D464610079013B /* AppDelegate.swift in Sources */,
 			);
