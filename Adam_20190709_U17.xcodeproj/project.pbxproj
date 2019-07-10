@@ -37,6 +37,15 @@
 		7AB97FCD22D5D36C0079013B /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FCC22D5D36C0079013B /* ParallaxHeaderMode.swift */; };
 		7AB97FCF22D5D3CE0079013B /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FCE22D5D3CE0079013B /* UIScrollView+ParallaxHeader.swift */; };
 		7AB97FD122D5D4750079013B /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FD022D5D4750079013B /* ParallaxHeader.swift */; };
+		7AB97FDB22D5DF6E0079013B /* UBaseTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FDA22D5DF6E0079013B /* UBaseTableViewHeaderFooterView.swift */; };
+		7AB97FDD22D5E05F0079013B /* UBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FDC22D5E05F0079013B /* UBaseCollectionViewCell.swift */; };
+		7AB97FDF22D5E0C70079013B /* UBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FDE22D5E0C70079013B /* UBaseTableViewCell.swift */; };
+		7AB97FE122D5E0D80079013B /* UBaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FE022D5E0D70079013B /* UBaseCollectionReusableView.swift */; };
+		7AB97FE422D5E17E0079013B /* UPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FE322D5E17E0079013B /* UPageViewController.swift */; };
+		7AB97FE622D5E18A0079013B /* UBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FE522D5E18A0079013B /* UBaseViewController.swift */; };
+		7AB97FE822D5E1970079013B /* UTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FE722D5E1970079013B /* UTabBarController.swift */; };
+		7AB97FEA22D5E1A40079013B /* UNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FE922D5E1A40079013B /* UNavigationController.swift */; };
+		7AB97FEC22D5E1B20079013B /* UWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FEB22D5E1B20079013B /* UWebViewController.swift */; };
 		96E433C6E8CF915C140DD95E /* Pods_Adam_20190709_U17Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE49871A452F8A3485BE17C /* Pods_Adam_20190709_U17Tests.framework */; };
 		BCCABD8B10150A42309FFDFA /* Pods_Adam_20190709_U17.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C097D29720AE99E77C669F9 /* Pods_Adam_20190709_U17.framework */; };
 /* End PBXBuildFile section */
@@ -98,6 +107,15 @@
 		7AB97FCC22D5D36C0079013B /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderMode.swift; sourceTree = "<group>"; };
 		7AB97FCE22D5D3CE0079013B /* UIScrollView+ParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ParallaxHeader.swift"; sourceTree = "<group>"; };
 		7AB97FD022D5D4750079013B /* ParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
+		7AB97FDA22D5DF6E0079013B /* UBaseTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBaseTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		7AB97FDC22D5E05F0079013B /* UBaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		7AB97FDE22D5E0C70079013B /* UBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBaseTableViewCell.swift; sourceTree = "<group>"; };
+		7AB97FE022D5E0D70079013B /* UBaseCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBaseCollectionReusableView.swift; sourceTree = "<group>"; };
+		7AB97FE322D5E17E0079013B /* UPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPageViewController.swift; sourceTree = "<group>"; };
+		7AB97FE522D5E18A0079013B /* UBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBaseViewController.swift; sourceTree = "<group>"; };
+		7AB97FE722D5E1970079013B /* UTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTabBarController.swift; sourceTree = "<group>"; };
+		7AB97FE922D5E1A40079013B /* UNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNavigationController.swift; sourceTree = "<group>"; };
+		7AB97FEB22D5E1B20079013B /* UWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWebViewController.swift; sourceTree = "<group>"; };
 		AB52CB99CCE87CD778A292CD /* Pods-Adam_20190709_U17Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20190709_U17Tests.debug.xcconfig"; path = "Target Support Files/Pods-Adam_20190709_U17Tests/Pods-Adam_20190709_U17Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD091536EA300B5F8580F684 /* Pods-Adam_20190709_U17UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20190709_U17UITests.release.xcconfig"; path = "Target Support Files/Pods-Adam_20190709_U17UITests/Pods-Adam_20190709_U17UITests.release.xcconfig"; sourceTree = "<group>"; };
 		E6E7B6495F8B7A0FE0E40CDA /* Pods-Adam_20190709_U17.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20190709_U17.release.xcconfig"; path = "Target Support Files/Pods-Adam_20190709_U17/Pods-Adam_20190709_U17.release.xcconfig"; sourceTree = "<group>"; };
@@ -183,9 +201,8 @@
 			children = (
 				7AB97F9922D467400079013B /* API */,
 				7AB97FA022D4675A0079013B /* Component */,
-				7AB97FA322D4675A0079013B /* Model */,
 				7AB97FA722D4675B0079013B /* Extension */,
-				7AB97F9C22D4675A0079013B /* Model */,
+				7AB97FA322D4675A0079013B /* Model */,
 				7AB97F9D22D4675A0079013B /* Procedure */,
 				7AB97F9622D464740079013B /* Resourse */,
 			);
@@ -232,17 +249,17 @@
 			path = API;
 			sourceTree = "<group>";
 		};
-		7AB97F9C22D4675A0079013B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		7AB97F9D22D4675A0079013B /* Procedure */ = {
 			isa = PBXGroup;
 			children = (
 				7AB97F9E22D4675A0079013B /* Global.swift */,
+				7AB97FD222D5DEDB0079013B /* Base */,
+				7AB97FD322D5DEEC0079013B /* Book */,
+				7AB97FD422D5DEF60079013B /* Cate */,
+				7AB97FD522D5DEFD0079013B /* Comic */,
+				7AB97FD622D5DF050079013B /* Home */,
+				7AB97FD722D5DF0D0079013B /* Mine */,
+				7AB97FD822D5DF150079013B /* Search */,
 			);
 			path = Procedure;
 			sourceTree = "<group>";
@@ -334,6 +351,80 @@
 				7AB97FD022D5D4750079013B /* ParallaxHeader.swift */,
 			);
 			path = ParallaxHeader;
+			sourceTree = "<group>";
+		};
+		7AB97FD222D5DEDB0079013B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7AB97FE222D5E15E0079013B /* ViewController */,
+				7AB97FD922D5DF630079013B /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7AB97FD322D5DEEC0079013B /* Book */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		7AB97FD422D5DEF60079013B /* Cate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cate;
+			sourceTree = "<group>";
+		};
+		7AB97FD522D5DEFD0079013B /* Comic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Comic;
+			sourceTree = "<group>";
+		};
+		7AB97FD622D5DF050079013B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7AB97FD722D5DF0D0079013B /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		7AB97FD822D5DF150079013B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		7AB97FD922D5DF630079013B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AB97FDA22D5DF6E0079013B /* UBaseTableViewHeaderFooterView.swift */,
+				7AB97FDC22D5E05F0079013B /* UBaseCollectionViewCell.swift */,
+				7AB97FDE22D5E0C70079013B /* UBaseTableViewCell.swift */,
+				7AB97FE022D5E0D70079013B /* UBaseCollectionReusableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AB97FE222D5E15E0079013B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7AB97FE322D5E17E0079013B /* UPageViewController.swift */,
+				7AB97FE522D5E18A0079013B /* UBaseViewController.swift */,
+				7AB97FE722D5E1970079013B /* UTabBarController.swift */,
+				7AB97FE922D5E1A40079013B /* UNavigationController.swift */,
+				7AB97FEB22D5E1B20079013B /* UWebViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -557,6 +648,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AB97FDF22D5E0C70079013B /* UBaseTableViewCell.swift in Sources */,
 				7AB97FB622D4675B0079013B /* ArrayExtensions.swift in Sources */,
 				7AB97FC322D480B70079013B /* UCollectionViewSectionBackgroundLayoutLayout.swift in Sources */,
 				7AB97FB322D4675B0079013B /* UHairPowder.swift in Sources */,
@@ -564,6 +656,7 @@
 				7AB97F6822D464610079013B /* ViewController.swift in Sources */,
 				7AB97FC122D46A5C0079013B /* UCollectionViewAlignedLayout.swift in Sources */,
 				7AB97F9B22D467400079013B /* HYAPI.swift in Sources */,
+				7AB97FDB22D5DF6E0079013B /* UBaseTableViewHeaderFooterView.swift in Sources */,
 				7AB97F6E22D464610079013B /* Adam_20190709_U17.xcdatamodeld in Sources */,
 				7AB97FB922D4675B0079013B /* UIBarButtonItemExtension.swift in Sources */,
 				7AB97FB822D4675B0079013B /* UIViewExtension.swift in Sources */,
@@ -571,16 +664,23 @@
 				7AB97FBE22D4675B0079013B /* DictionaryExtension.swift in Sources */,
 				7AB97FB522D4675B0079013B /* UNoticeBar.swift in Sources */,
 				7AB97FBC22D4675B0079013B /* DispatchQueueExtension.swift in Sources */,
+				7AB97FDD22D5E05F0079013B /* UBaseCollectionViewCell.swift in Sources */,
 				7AB97FC622D5C72D0079013B /* URefresh.swift in Sources */,
 				7AB97FB422D4675B0079013B /* UModel.swift in Sources */,
 				7AB97FB722D4675B0079013B /* UIColorExtension.swift in Sources */,
+				7AB97FE422D5E17E0079013B /* UPageViewController.swift in Sources */,
 				7AB97FC922D5CC170079013B /* UEmptyDataSet.swift in Sources */,
 				7AB97FBA22D4675B0079013B /* UIDeviceExtension.swift in Sources */,
+				7AB97FE122D5E0D80079013B /* UBaseCollectionReusableView.swift in Sources */,
 				7AB97FCD22D5D36C0079013B /* ParallaxHeaderMode.swift in Sources */,
+				7AB97FE622D5E18A0079013B /* UBaseViewController.swift in Sources */,
 				7AB97FBB22D4675B0079013B /* UIImageExtensions.swift in Sources */,
 				7AB97FD122D5D4750079013B /* ParallaxHeader.swift in Sources */,
 				7AB97FB122D4675B0079013B /* Global.swift in Sources */,
+				7AB97FEC22D5E1B20079013B /* UWebViewController.swift in Sources */,
 				7AB97F6622D464610079013B /* AppDelegate.swift in Sources */,
+				7AB97FE822D5E1970079013B /* UTabBarController.swift in Sources */,
+				7AB97FEA22D5E1A40079013B /* UNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
