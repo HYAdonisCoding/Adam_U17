@@ -46,6 +46,18 @@
 		7AB97FE822D5E1970079013B /* UTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FE722D5E1970079013B /* UTabBarController.swift */; };
 		7AB97FEA22D5E1A40079013B /* UNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FE922D5E1A40079013B /* UNavigationController.swift */; };
 		7AB97FEC22D5E1B20079013B /* UWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FEB22D5E1B20079013B /* UWebViewController.swift */; };
+		7AB97FEF22D6C7300079013B /* UHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FEE22D6C7300079013B /* UHomeViewController.swift */; };
+		7AB97FF222D6C7F60079013B /* USearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FF122D6C7F60079013B /* USearchViewController.swift */; };
+		7AB97FF422D6C8BF0079013B /* UBoutiqueListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FF322D6C8BF0079013B /* UBoutiqueListViewController.swift */; };
+		7AB97FF622D6C8EF0079013B /* UVIPListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FF522D6C8EF0079013B /* UVIPListViewController.swift */; };
+		7AB97FF822D6C90E0079013B /* USubscibeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FF722D6C90E0079013B /* USubscibeListViewController.swift */; };
+		7AB97FFA22D6C92C0079013B /* URankListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FF922D6C92C0079013B /* URankListViewController.swift */; };
+		7AB97FFD22D6CB640079013B /* UCateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FFC22D6CB640079013B /* UCateListViewController.swift */; };
+		7AB9800022D6CB910079013B /* UBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FFF22D6CB910079013B /* UBookViewController.swift */; };
+		7AB9800922D6CC970079013B /* UMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9800822D6CC970079013B /* UMineViewController.swift */; };
+		7AB9800B22D6CE420079013B /* UCollectListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9800A22D6CE420079013B /* UCollectListViewController.swift */; };
+		7AB9800D22D6CE5C0079013B /* UDocumentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9800C22D6CE5C0079013B /* UDocumentListViewController.swift */; };
+		7AB9800F22D6CE700079013B /* UDownloadListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9800E22D6CE700079013B /* UDownloadListViewController.swift */; };
 		96E433C6E8CF915C140DD95E /* Pods_Adam_20190709_U17Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE49871A452F8A3485BE17C /* Pods_Adam_20190709_U17Tests.framework */; };
 		BCCABD8B10150A42309FFDFA /* Pods_Adam_20190709_U17.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C097D29720AE99E77C669F9 /* Pods_Adam_20190709_U17.framework */; };
 /* End PBXBuildFile section */
@@ -116,6 +128,18 @@
 		7AB97FE722D5E1970079013B /* UTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTabBarController.swift; sourceTree = "<group>"; };
 		7AB97FE922D5E1A40079013B /* UNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNavigationController.swift; sourceTree = "<group>"; };
 		7AB97FEB22D5E1B20079013B /* UWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWebViewController.swift; sourceTree = "<group>"; };
+		7AB97FEE22D6C7300079013B /* UHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UHomeViewController.swift; sourceTree = "<group>"; };
+		7AB97FF122D6C7F60079013B /* USearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USearchViewController.swift; sourceTree = "<group>"; };
+		7AB97FF322D6C8BF0079013B /* UBoutiqueListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBoutiqueListViewController.swift; sourceTree = "<group>"; };
+		7AB97FF522D6C8EF0079013B /* UVIPListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVIPListViewController.swift; sourceTree = "<group>"; };
+		7AB97FF722D6C90E0079013B /* USubscibeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USubscibeListViewController.swift; sourceTree = "<group>"; };
+		7AB97FF922D6C92C0079013B /* URankListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URankListViewController.swift; sourceTree = "<group>"; };
+		7AB97FFC22D6CB640079013B /* UCateListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCateListViewController.swift; sourceTree = "<group>"; };
+		7AB97FFF22D6CB910079013B /* UBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBookViewController.swift; sourceTree = "<group>"; };
+		7AB9800822D6CC970079013B /* UMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMineViewController.swift; sourceTree = "<group>"; };
+		7AB9800A22D6CE420079013B /* UCollectListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCollectListViewController.swift; sourceTree = "<group>"; };
+		7AB9800C22D6CE5C0079013B /* UDocumentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDocumentListViewController.swift; sourceTree = "<group>"; };
+		7AB9800E22D6CE700079013B /* UDownloadListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDownloadListViewController.swift; sourceTree = "<group>"; };
 		AB52CB99CCE87CD778A292CD /* Pods-Adam_20190709_U17Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20190709_U17Tests.debug.xcconfig"; path = "Target Support Files/Pods-Adam_20190709_U17Tests/Pods-Adam_20190709_U17Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD091536EA300B5F8580F684 /* Pods-Adam_20190709_U17UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20190709_U17UITests.release.xcconfig"; path = "Target Support Files/Pods-Adam_20190709_U17UITests/Pods-Adam_20190709_U17UITests.release.xcconfig"; sourceTree = "<group>"; };
 		E6E7B6495F8B7A0FE0E40CDA /* Pods-Adam_20190709_U17.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20190709_U17.release.xcconfig"; path = "Target Support Files/Pods-Adam_20190709_U17/Pods-Adam_20190709_U17.release.xcconfig"; sourceTree = "<group>"; };
@@ -365,6 +389,7 @@
 		7AB97FD322D5DEEC0079013B /* Book */ = {
 			isa = PBXGroup;
 			children = (
+				7AB97FFE22D6CB7B0079013B /* ViewController */,
 			);
 			path = Book;
 			sourceTree = "<group>";
@@ -372,6 +397,7 @@
 		7AB97FD422D5DEF60079013B /* Cate */ = {
 			isa = PBXGroup;
 			children = (
+				7AB97FFB22D6CB590079013B /* ViewController */,
 			);
 			path = Cate;
 			sourceTree = "<group>";
@@ -386,6 +412,7 @@
 		7AB97FD622D5DF050079013B /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				7AB97FED22D6C7150079013B /* ViewController */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -393,6 +420,7 @@
 		7AB97FD722D5DF0D0079013B /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				7AB9800322D6CBB90079013B /* ViewController */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -400,6 +428,7 @@
 		7AB97FD822D5DF150079013B /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				7AB97FF022D6C7E40079013B /* ViewController */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -423,6 +452,53 @@
 				7AB97FE722D5E1970079013B /* UTabBarController.swift */,
 				7AB97FE922D5E1A40079013B /* UNavigationController.swift */,
 				7AB97FEB22D5E1B20079013B /* UWebViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7AB97FED22D6C7150079013B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7AB97FEE22D6C7300079013B /* UHomeViewController.swift */,
+				7AB97FF322D6C8BF0079013B /* UBoutiqueListViewController.swift */,
+				7AB97FF522D6C8EF0079013B /* UVIPListViewController.swift */,
+				7AB97FF722D6C90E0079013B /* USubscibeListViewController.swift */,
+				7AB97FF922D6C92C0079013B /* URankListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7AB97FF022D6C7E40079013B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7AB97FF122D6C7F60079013B /* USearchViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7AB97FFB22D6CB590079013B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7AB97FFC22D6CB640079013B /* UCateListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7AB97FFE22D6CB7B0079013B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7AB97FFF22D6CB910079013B /* UBookViewController.swift */,
+				7AB9800A22D6CE420079013B /* UCollectListViewController.swift */,
+				7AB9800C22D6CE5C0079013B /* UDocumentListViewController.swift */,
+				7AB9800E22D6CE700079013B /* UDownloadListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7AB9800322D6CBB90079013B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7AB9800822D6CC970079013B /* UMineViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -648,10 +724,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AB9800B22D6CE420079013B /* UCollectListViewController.swift in Sources */,
 				7AB97FDF22D5E0C70079013B /* UBaseTableViewCell.swift in Sources */,
 				7AB97FB622D4675B0079013B /* ArrayExtensions.swift in Sources */,
 				7AB97FC322D480B70079013B /* UCollectionViewSectionBackgroundLayoutLayout.swift in Sources */,
 				7AB97FB322D4675B0079013B /* UHairPowder.swift in Sources */,
+				7AB97FF822D6C90E0079013B /* USubscibeListViewController.swift in Sources */,
+				7AB9800922D6CC970079013B /* UMineViewController.swift in Sources */,
 				7AB97FCF22D5D3CE0079013B /* UIScrollView+ParallaxHeader.swift in Sources */,
 				7AB97F6822D464610079013B /* ViewController.swift in Sources */,
 				7AB97FC122D46A5C0079013B /* UCollectionViewAlignedLayout.swift in Sources */,
@@ -659,6 +738,7 @@
 				7AB97FDB22D5DF6E0079013B /* UBaseTableViewHeaderFooterView.swift in Sources */,
 				7AB97F6E22D464610079013B /* Adam_20190709_U17.xcdatamodeld in Sources */,
 				7AB97FB922D4675B0079013B /* UIBarButtonItemExtension.swift in Sources */,
+				7AB97FF622D6C8EF0079013B /* UVIPListViewController.swift in Sources */,
 				7AB97FB822D4675B0079013B /* UIViewExtension.swift in Sources */,
 				7AB97FBD22D4675B0079013B /* StringExtension.swift in Sources */,
 				7AB97FBE22D4675B0079013B /* DictionaryExtension.swift in Sources */,
@@ -667,20 +747,28 @@
 				7AB97FDD22D5E05F0079013B /* UBaseCollectionViewCell.swift in Sources */,
 				7AB97FC622D5C72D0079013B /* URefresh.swift in Sources */,
 				7AB97FB422D4675B0079013B /* UModel.swift in Sources */,
+				7AB97FFD22D6CB640079013B /* UCateListViewController.swift in Sources */,
 				7AB97FB722D4675B0079013B /* UIColorExtension.swift in Sources */,
 				7AB97FE422D5E17E0079013B /* UPageViewController.swift in Sources */,
+				7AB9800022D6CB910079013B /* UBookViewController.swift in Sources */,
 				7AB97FC922D5CC170079013B /* UEmptyDataSet.swift in Sources */,
+				7AB97FF422D6C8BF0079013B /* UBoutiqueListViewController.swift in Sources */,
+				7AB9800D22D6CE5C0079013B /* UDocumentListViewController.swift in Sources */,
 				7AB97FBA22D4675B0079013B /* UIDeviceExtension.swift in Sources */,
 				7AB97FE122D5E0D80079013B /* UBaseCollectionReusableView.swift in Sources */,
 				7AB97FCD22D5D36C0079013B /* ParallaxHeaderMode.swift in Sources */,
 				7AB97FE622D5E18A0079013B /* UBaseViewController.swift in Sources */,
 				7AB97FBB22D4675B0079013B /* UIImageExtensions.swift in Sources */,
 				7AB97FD122D5D4750079013B /* ParallaxHeader.swift in Sources */,
+				7AB9800F22D6CE700079013B /* UDownloadListViewController.swift in Sources */,
 				7AB97FB122D4675B0079013B /* Global.swift in Sources */,
 				7AB97FEC22D5E1B20079013B /* UWebViewController.swift in Sources */,
 				7AB97F6622D464610079013B /* AppDelegate.swift in Sources */,
 				7AB97FE822D5E1970079013B /* UTabBarController.swift in Sources */,
+				7AB97FF222D6C7F60079013B /* USearchViewController.swift in Sources */,
 				7AB97FEA22D5E1A40079013B /* UNavigationController.swift in Sources */,
+				7AB97FEF22D6C7300079013B /* UHomeViewController.swift in Sources */,
+				7AB97FFA22D6C92C0079013B /* URankListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
