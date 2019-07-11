@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = UTabBarController()
         window?.makeKeyAndVisible()
         // MARK: - 修正齐刘海
-        
+//        UHairPowder.instance.spread()
         
         return true
     }
