@@ -6,7 +6,7 @@
 //  Copyright © 2019 Adonis_HongYang. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class URankListViewController: UBaseViewController {
     

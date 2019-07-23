@@ -49,8 +49,8 @@ class UComicViewController: UBaseViewController {
         return dc
     }()
     
-    private lazy var headView: UComicHead = {
-        return UComicHead(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: navigationBarY + 150))
+    private lazy var headView: UComicCHead = {
+        return UComicCHead(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: navigationBarY + 150))
     }()
     
     private var detailStatic: DetailStaticModel?

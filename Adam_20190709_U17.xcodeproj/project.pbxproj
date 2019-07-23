@@ -17,6 +17,8 @@
 		7A7F923122E6B4C5009CA992 /* UChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F923022E6B4C5009CA992 /* UChapterViewController.swift */; };
 		7A7F923322E6B62B009CA992 /* UCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F923222E6B62B009CA992 /* UCommentViewController.swift */; };
 		7A7F923522E6B747009CA992 /* UComicHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F923422E6B747009CA992 /* UComicHead.swift */; };
+		7A7F923722E6F0EA009CA992 /* UUpdateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F923622E6F0EA009CA992 /* UUpdateListViewController.swift */; };
+		7A7F923922E6F108009CA992 /* USpecialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F923822E6F108009CA992 /* USpecialViewController.swift */; };
 		7A82C72722E1A74700A10C20 /* UComicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A82C72622E1A74700A10C20 /* UComicListViewController.swift */; };
 		7AB97F6622D464610079013B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97F6522D464610079013B /* AppDelegate.swift */; };
 		7AB97F6822D464610079013B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97F6722D464610079013B /* ViewController.swift */; };
@@ -107,6 +109,8 @@
 		7A7F923022E6B4C5009CA992 /* UChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UChapterViewController.swift; sourceTree = "<group>"; };
 		7A7F923222E6B62B009CA992 /* UCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCommentViewController.swift; sourceTree = "<group>"; };
 		7A7F923422E6B747009CA992 /* UComicHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UComicHead.swift; sourceTree = "<group>"; };
+		7A7F923622E6F0EA009CA992 /* UUpdateListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUpdateListViewController.swift; sourceTree = "<group>"; };
+		7A7F923822E6F108009CA992 /* USpecialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USpecialViewController.swift; sourceTree = "<group>"; };
 		7A82C72622E1A74700A10C20 /* UComicListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UComicListViewController.swift; sourceTree = "<group>"; };
 		7AB97F6222D464610079013B /* Adam_20190709_U17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adam_20190709_U17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB97F6522D464610079013B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -512,9 +516,11 @@
 			isa = PBXGroup;
 			children = (
 				7AB97FF722D6C90E0079013B /* USubscibeListViewController.swift */,
-				7AB97FEE22D6C7300079013B /* UHomeViewController.swift */,
-				7AB97FF322D6C8BF0079013B /* UBoutiqueListViewController.swift */,
 				7AB97FF522D6C8EF0079013B /* UVIPListViewController.swift */,
+				7A7F923622E6F0EA009CA992 /* UUpdateListViewController.swift */,
+				7AB97FEE22D6C7300079013B /* UHomeViewController.swift */,
+				7A7F923822E6F108009CA992 /* USpecialViewController.swift */,
+				7AB97FF322D6C8BF0079013B /* UBoutiqueListViewController.swift */,
 				7AB97FF922D6C92C0079013B /* URankListViewController.swift */,
 			);
 			path = ViewController;
@@ -833,6 +839,7 @@
 				7AB97FBA22D4675B0079013B /* UIDeviceExtension.swift in Sources */,
 				7AB9801222D6DE8D0079013B /* UComicCHead.swift in Sources */,
 				7AB97FE122D5E0D80079013B /* UBaseCollectionReusableView.swift in Sources */,
+				7A7F923922E6F108009CA992 /* USpecialViewController.swift in Sources */,
 				7A7F922D22E6B287009CA992 /* UComicViewController.swift in Sources */,
 				7AB97FCD22D5D36C0079013B /* ParallaxHeaderMode.swift in Sources */,
 				7AB97FE622D5E18A0079013B /* UBaseViewController.swift in Sources */,
@@ -847,6 +854,7 @@
 				7AB97FF222D6C7F60079013B /* USearchViewController.swift in Sources */,
 				7AB97FEA22D5E1A40079013B /* UNavigationController.swift in Sources */,
 				7AB97FEF22D6C7300079013B /* UHomeViewController.swift in Sources */,
+				7A7F923722E6F0EA009CA992 /* UUpdateListViewController.swift in Sources */,
 				7A7F923522E6B747009CA992 /* UComicHead.swift in Sources */,
 				7AB97FFA22D6C92C0079013B /* URankListViewController.swift in Sources */,
 			);
