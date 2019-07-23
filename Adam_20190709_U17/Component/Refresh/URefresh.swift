@@ -40,9 +40,7 @@ class URefreshAutoHeader: MJRefreshHeader {
     
 }
 
-class URefreshBackNormalFooter: MJRefreshBackNormalFooter {
-    
-}
+class URefreshFooter: MJRefreshBackNormalFooter {}
 
 class URefreshAutoFooter: MJRefreshAutoFooter {
     
