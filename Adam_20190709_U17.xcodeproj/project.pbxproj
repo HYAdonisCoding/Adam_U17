@@ -74,6 +74,8 @@
 		7AB9801422D6E1ED0079013B /* URankTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9801322D6E1ED0079013B /* URankTCell.swift */; };
 		7AB9801622D6E5540079013B /* UComicCFoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9801522D6E5540079013B /* UComicCFoot.swift */; };
 		7AB9801822D6E58A0079013B /* UComicCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9801722D6E58A0079013B /* UComicCCell.swift */; };
+		7AC222FA22E7E7BC002DAE79 /* USearchTHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC222F922E7E7BC002DAE79 /* USearchTHead.swift */; };
+		7AC222FC22E7E7DF002DAE79 /* USearchCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC222FB22E7E7DF002DAE79 /* USearchCCell.swift */; };
 		96E433C6E8CF915C140DD95E /* Pods_Adam_20190709_U17Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE49871A452F8A3485BE17C /* Pods_Adam_20190709_U17Tests.framework */; };
 		BCCABD8B10150A42309FFDFA /* Pods_Adam_20190709_U17.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C097D29720AE99E77C669F9 /* Pods_Adam_20190709_U17.framework */; };
 /* End PBXBuildFile section */
@@ -172,6 +174,8 @@
 		7AB9801322D6E1ED0079013B /* URankTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URankTCell.swift; sourceTree = "<group>"; };
 		7AB9801522D6E5540079013B /* UComicCFoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UComicCFoot.swift; sourceTree = "<group>"; };
 		7AB9801722D6E58A0079013B /* UComicCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UComicCCell.swift; sourceTree = "<group>"; };
+		7AC222F922E7E7BC002DAE79 /* USearchTHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USearchTHead.swift; sourceTree = "<group>"; };
+		7AC222FB22E7E7DF002DAE79 /* USearchCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USearchCCell.swift; sourceTree = "<group>"; };
 		AB52CB99CCE87CD778A292CD /* Pods-Adam_20190709_U17Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20190709_U17Tests.debug.xcconfig"; path = "Target Support Files/Pods-Adam_20190709_U17Tests/Pods-Adam_20190709_U17Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD091536EA300B5F8580F684 /* Pods-Adam_20190709_U17UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20190709_U17UITests.release.xcconfig"; path = "Target Support Files/Pods-Adam_20190709_U17UITests/Pods-Adam_20190709_U17UITests.release.xcconfig"; sourceTree = "<group>"; };
 		E6E7B6495F8B7A0FE0E40CDA /* Pods-Adam_20190709_U17.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20190709_U17.release.xcconfig"; path = "Target Support Files/Pods-Adam_20190709_U17/Pods-Adam_20190709_U17.release.xcconfig"; sourceTree = "<group>"; };
@@ -233,8 +237,8 @@
 		7A82C72422E1A71C00A10C20 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7A82C72622E1A74700A10C20 /* UComicListViewController.swift */,
 				7A7F922C22E6B287009CA992 /* UComicViewController.swift */,
+				7A82C72622E1A74700A10C20 /* UComicListViewController.swift */,
 				7A7F922E22E6B4AB009CA992 /* UDetailViewController.swift */,
 				7A7F923022E6B4C5009CA992 /* UChapterViewController.swift */,
 				7A7F923222E6B62B009CA992 /* UCommentViewController.swift */,
@@ -484,6 +488,7 @@
 		7AB97FD822D5DF150079013B /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				7AC222F822E7E794002DAE79 /* View */,
 				7AB97FF022D6C7E40079013B /* ViewController */,
 			);
 			path = Search;
@@ -571,6 +576,15 @@
 				7A5C27ED22DDC9F70043F7D1 /* UUpdateTCell.swift */,
 				7A5C27EF22DDCD1A0043F7D1 /* UBoardCCell.swift */,
 				7A5C27F122DDD0950043F7D1 /* USpecialTCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AC222F822E7E794002DAE79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AC222F922E7E7BC002DAE79 /* USearchTHead.swift */,
+				7AC222FB22E7E7DF002DAE79 /* USearchCCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -796,6 +810,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AC222FA22E7E7BC002DAE79 /* USearchTHead.swift in Sources */,
 				7AB9800B22D6CE420079013B /* UCollectListViewController.swift in Sources */,
 				7AB97FDF22D5E0C70079013B /* UBaseTableViewCell.swift in Sources */,
 				7AB97FB622D4675B0079013B /* ArrayExtensions.swift in Sources */,
@@ -821,6 +836,7 @@
 				7A82C72722E1A74700A10C20 /* UComicListViewController.swift in Sources */,
 				7AB97FBD22D4675B0079013B /* StringExtension.swift in Sources */,
 				7A5C27EE22DDC9F70043F7D1 /* UUpdateTCell.swift in Sources */,
+				7AC222FC22E7E7DF002DAE79 /* USearchCCell.swift in Sources */,
 				7A5C27F022DDCD1A0043F7D1 /* UBoardCCell.swift in Sources */,
 				7AB97FBE22D4675B0079013B /* DictionaryExtension.swift in Sources */,
 				7AB97FB522D4675B0079013B /* UNoticeBar.swift in Sources */,
