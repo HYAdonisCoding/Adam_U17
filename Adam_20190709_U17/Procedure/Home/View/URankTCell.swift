@@ -50,7 +50,7 @@ class URankTCell: UBaseTableViewCell {
 
         contentView.addSubview(titleLabel)
         titleLabel.snp.makeConstraints {
-            $0.left.top.equalToSuperview().offset(10)
+            $0.left.equalTo(iconView.snp.right).offset(10)
             $0.right.equalToSuperview().offset(-10)
             $0.height.equalTo(30)
             $0.top.equalTo(iconView).offset(20)

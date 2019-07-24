@@ -86,7 +86,7 @@ class UComicTCell: UBaseTableViewCell {
         }
         
         contentView.addSubview(orderView)
-        titleLabel.snp.makeConstraints {
+        orderView.snp.makeConstraints {
             $0.bottom.equalTo(iconView.snp.bottom)
             $0.right.equalToSuperview().offset(-10)
             $0.height.width.equalTo(30)
