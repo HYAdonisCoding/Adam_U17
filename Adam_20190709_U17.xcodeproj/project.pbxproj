@@ -74,6 +74,8 @@
 		7AB9801422D6E1ED0079013B /* URankTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9801322D6E1ED0079013B /* URankTCell.swift */; };
 		7AB9801622D6E5540079013B /* UComicCFoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9801522D6E5540079013B /* UComicCFoot.swift */; };
 		7AB9801822D6E58A0079013B /* UComicCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9801722D6E58A0079013B /* UComicCCell.swift */; };
+		7ABD89AB22E99961003982A7 /* UMineHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABD89AA22E99961003982A7 /* UMineHead.swift */; };
+		7ABD89AD22E99B0D003982A7 /* USettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABD89AC22E99B0D003982A7 /* USettingViewController.swift */; };
 		7AC222FA22E7E7BC002DAE79 /* USearchTHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC222F922E7E7BC002DAE79 /* USearchTHead.swift */; };
 		7AC222FC22E7E7DF002DAE79 /* USearchCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC222FB22E7E7DF002DAE79 /* USearchCCell.swift */; };
 		7AC222FE22E825C4002DAE79 /* UOtherWorksTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC222FD22E825C4002DAE79 /* UOtherWorksTCell.swift */; };
@@ -187,6 +189,8 @@
 		7AB9801322D6E1ED0079013B /* URankTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URankTCell.swift; sourceTree = "<group>"; };
 		7AB9801522D6E5540079013B /* UComicCFoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UComicCFoot.swift; sourceTree = "<group>"; };
 		7AB9801722D6E58A0079013B /* UComicCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UComicCCell.swift; sourceTree = "<group>"; };
+		7ABD89AA22E99961003982A7 /* UMineHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMineHead.swift; sourceTree = "<group>"; };
+		7ABD89AC22E99B0D003982A7 /* USettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USettingViewController.swift; sourceTree = "<group>"; };
 		7AC222F922E7E7BC002DAE79 /* USearchTHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USearchTHead.swift; sourceTree = "<group>"; };
 		7AC222FB22E7E7DF002DAE79 /* USearchCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USearchCCell.swift; sourceTree = "<group>"; };
 		7AC222FD22E825C4002DAE79 /* UOtherWorksTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UOtherWorksTCell.swift; sourceTree = "<group>"; };
@@ -519,6 +523,7 @@
 		7AB97FD722D5DF0D0079013B /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				7ABD89A922E99931003982A7 /* View */,
 				7AB9800322D6CBB90079013B /* ViewController */,
 			);
 			path = Mine;
@@ -601,6 +606,7 @@
 			isa = PBXGroup;
 			children = (
 				7AB9800822D6CC970079013B /* UMineViewController.swift */,
+				7ABD89AC22E99B0D003982A7 /* USettingViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -615,6 +621,14 @@
 				7A5C27ED22DDC9F70043F7D1 /* UUpdateTCell.swift */,
 				7A5C27EF22DDCD1A0043F7D1 /* UBoardCCell.swift */,
 				7A5C27F122DDD0950043F7D1 /* USpecialTCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7ABD89A922E99931003982A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7ABD89AA22E99961003982A7 /* UMineHead.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -882,11 +896,13 @@
 				7AB97FBD22D4675B0079013B /* StringExtension.swift in Sources */,
 				7A5C27EE22DDC9F70043F7D1 /* UUpdateTCell.swift in Sources */,
 				7AC2231022E848F4002DAE79 /* UReadCCell.swift in Sources */,
+				7ABD89AB22E99961003982A7 /* UMineHead.swift in Sources */,
 				7AC222FC22E7E7DF002DAE79 /* USearchCCell.swift in Sources */,
 				7A5C27F022DDCD1A0043F7D1 /* UBoardCCell.swift in Sources */,
 				7AB97FBE22D4675B0079013B /* DictionaryExtension.swift in Sources */,
 				7AB97FB522D4675B0079013B /* UNoticeBar.swift in Sources */,
 				7AB97FBC22D4675B0079013B /* DispatchQueueExtension.swift in Sources */,
+				7ABD89AD22E99B0D003982A7 /* USettingViewController.swift in Sources */,
 				7AB97FDD22D5E05F0079013B /* UBaseCollectionViewCell.swift in Sources */,
 				7AB97FC622D5C72D0079013B /* URefresh.swift in Sources */,
 				7AB97FB422D4675B0079013B /* UModel.swift in Sources */,
