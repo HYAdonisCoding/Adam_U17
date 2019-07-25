@@ -29,13 +29,17 @@ class USpecialViewController: UBaseViewController {
         return tw
     }()
 
+    convenience init(argCon: Int = 0) {
+        self.init()
+        self.argCon = argCon
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
         loadData(more: false)
     }
     
-    private func loadData(more: Bool) {
+    @objc private func loadData(more: Bool) {
         page = (more ? ( page + 1) : 1)
         ApiLoadingProvider.request(UApi.special(argCon: argCon, page: page), model: ComicListModel.self) { [weak self] (returnData) in
             self?.tableView.uHead.endRefreshing()

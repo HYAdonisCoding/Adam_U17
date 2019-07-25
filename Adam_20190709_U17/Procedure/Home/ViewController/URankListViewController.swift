@@ -64,7 +64,9 @@ extension URankListViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let model = rankList[indexPath.row]
-        let vc = UComicListViewController(argCon: model.argCon, argName: model.argName, argValue: model.argValue)
+        let vc = UComicListViewController(argCon: model.argCon,
+                                          argName: model.argName,
+                                          argValue: model.argValue)
         vc.title = "\(model.title!)榜"
         navigationController?.pushViewController(vc, animated: true)
     }

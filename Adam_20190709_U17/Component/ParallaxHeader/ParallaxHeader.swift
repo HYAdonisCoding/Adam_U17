@@ -10,7 +10,13 @@ import UIKit
 import ObjectiveC.runtime
 
 public typealias ParallaxHeaderHandlerBlock = (_ parallaxHeader: ParallaxHeader)->Void
-private let parallaxHeaderKVOContext = UnsafeMutableRawPointer.allocate(byteCount: 4, alignment: 1)
+
+
+
+private let parallaxHeaderKVOContext = UnsafeMutableRawPointer.allocate(
+    byteCount: 4,
+    alignment: 1
+)
 
 class ParallaxView: UIView {
     fileprivate weak var parent: ParallaxHeader!
@@ -19,14 +25,21 @@ class ParallaxView: UIView {
         guard let scrollView = self.superview as? UIScrollView else {
             return
         }
-        scrollView.removeObserver(self.parent, forKeyPath: NSStringFromSelector(#selector(getter: scrollView.contentOffset)), context: parallaxHeaderKVOContext)
+        scrollView.removeObserver(
+            self.parent,
+            forKeyPath: NSStringFromSelector(#selector(getter: scrollView.contentOffset)),
+            context: parallaxHeaderKVOContext)
     }
     
     override func didMoveToSuperview() {
         guard let scrollView = self.superview as? UIScrollView else {
             return
         }
-        scrollView.addObserver(self.parent, forKeyPath: NSStringFromSelector(#selector(getter: scrollView.contentOffset)), options: NSKeyValueObservingOptions.new, context: parallaxHeaderKVOContext)
+        scrollView.addObserver(
+            self.parent,
+            forKeyPath: NSStringFromSelector(#selector(getter: scrollView.contentOffset)),
+            options: NSKeyValueObservingOptions.new,
+            context: parallaxHeaderKVOContext)
     }
 }
 

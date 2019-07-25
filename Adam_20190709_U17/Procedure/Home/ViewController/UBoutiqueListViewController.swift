@@ -134,8 +134,46 @@ extension UBoutiqueListViewController: UCollectionViewSectionBackgroundLayoutDel
         return comicList.comics?.prefix(4).count ?? 0
     }
     
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        if kind == UICollectionView.elementKindSectionHeader {
+            let head = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, for: indexPath, viewType: UComicCHead.self)
+            let comicList = comicLists[indexPath.section]
+            head.iconView.kf.setImage(urlString: comicList.newTitleIconUrl)
+            head.titleLabel.text = comicList.itemTitle
+            head.moreActionClosure { [weak self] in
+                if comicList.comicType == .thematic {
+                    let vc = UPageViewController(titles: ["漫画", "次元"], vcs: [USpecialViewController(argCon: 2),USpecialViewController(argCon: 4)], pageStyle: .navgationBarSegment)
+                    self?.navigationController?.pushViewController(vc, animated: true)
+                } else if comicList.comicType == .animation {
+                    let vc = UWebViewController(url: "http://m.u17.com/wap/cartoon/list")
+                    vc.title = comicList.itemTitle
+                    self?.navigationController?.pushViewController(vc, animated: true)
+                } else if comicList.comicType == .update {
+                    let vc = UUpdateListViewController(argCon: comicList.argCon, argName: comicList.argName, argValue: comicList.argValue)
+                    vc.title = comicList.itemTitle
+                    self?.navigationController?.pushViewController(vc, animated: true)
+                } else {
+                    let vc = UComicListViewController(argCon: comicList.argCon, argName: comicList.argName, argValue: comicList.argValue)
+                    vc.title = comicList.itemTitle
+                    vc.navigationController?.pushViewController(vc, animated: true)
+                }
+            }
+            return head
+        } else {
+            let foot = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionFooter, for: indexPath, viewType: UComicCFoot.self)
+            return foot
+        }
+    }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, backgroundColorForSectionAt section: Int) -> UIColor {
         return UIColor.white
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
+        let comicList = comicLists[section]
+        return comicList.itemTitle?.count ?? 0 > 0 ? CGSize(width: screenWidth, height: 44) : CGSize.zero
+    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
+        return comicLists.count - 1 != section ? CGSize(width: screenWidth, height: 10) : CGSize.zero
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let comicList = comicLists[indexPath.section]

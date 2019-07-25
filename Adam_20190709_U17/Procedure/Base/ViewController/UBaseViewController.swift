@@ -15,7 +15,7 @@ import Kingfisher
 class UBaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("\(self)")
+        print("\(self) viewDidLoad")
         view.backgroundColor = UIColor.background
         if #available(iOS 11.0, *) {
             UIScrollView.appearance().contentInsetAdjustmentBehavior = .never
@@ -24,6 +24,10 @@ class UBaseViewController: UIViewController {
         }
         
         configUI()
+    }
+    
+    deinit {
+        print("\(self) deinit")
     }
     
     override func viewWillAppear(_ animated: Bool) {

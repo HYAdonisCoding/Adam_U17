@@ -40,7 +40,7 @@ class USearchViewController: UBaseViewController {
     }()
 
     private lazy var historyTableView: UITableView = {
-        let tw = UITableView(frame: CGRect.zero, style: .plain)
+        let tw = UITableView(frame: CGRect.zero, style: .grouped)
         tw.delegate = self
         tw.dataSource = self
         tw.register(headerFooterViewType: USearchTHead.self)
@@ -50,7 +50,7 @@ class USearchViewController: UBaseViewController {
     }()
     
     lazy var searchTableView: UITableView = {
-        let sw = UITableView(frame: CGRect.zero, style: .plain)
+        let sw = UITableView(frame: CGRect.zero, style: .grouped)
         sw.delegate = self
         sw.dataSource = self
         sw.register(headerFooterViewType: USearchTHead.self)
@@ -59,7 +59,7 @@ class USearchViewController: UBaseViewController {
     }()
     
     lazy var resultTableView: UITableView = {
-        let name = UITableView(frame: CGRect.zero, style: .plain)
+        let name = UITableView(frame: CGRect.zero, style: .grouped)
         name.delegate = self
         name.dataSource = self
         name.register(cellType: UComicTCell.self)
@@ -147,9 +147,14 @@ class USearchViewController: UBaseViewController {
         
         searchBar.frame = CGRect(x: 0, y: 0, width: screenWidth - 50, height: 30)
         navigationItem.titleView = searchBar
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: nil, style: .plain, target: nil, action: nil)
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: nil,
+                                                           style: .plain,
+                                                           target: nil,
+                                                           action: nil)
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "取消", target: self, action: #selector(cancelAction))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "取消",
+                                                            target: self,
+                                                            action: #selector(cancelAction))
     }
     
     @objc func cancelAction() {
@@ -185,8 +190,9 @@ extension USearchViewController: UITableViewDelegate, UITableViewDataSource {
             return section == 0 ? (searchHistory?.prefix(5).count ?? 0) : 0
         } else if tableView == searchTableView {
             return relative?.count ?? 0
+        } else {
+            return comics?.count ?? 0
         }
-        return comics?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

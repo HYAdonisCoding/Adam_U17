@@ -11,12 +11,15 @@ import UIKit
 private let SectionBackground = "UCollectionReusableView"
 
 protocol UCollectionViewSectionBackgroundLayoutDelegateLayout: UICollectionViewDelegateFlowLayout {
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, backgroundColorForSectionAt section: Int) -> UIColor
+    func collectionView(_ collectionView: UICollectionView,
+                        layout collectionViewLayout: UICollectionViewLayout,
+                        backgroundColorForSectionAt section: Int) -> UIColor
 }
 
-
 extension UCollectionViewSectionBackgroundLayoutDelegateLayout {
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, backgroundForSectioinAt section: Int) -> UIColor {
+    func collectionView(_ collectionView: UICollectionView,
+                        layout collectionViewLayout: UICollectionViewLayout,
+                        backgroundForSectioinAt section: Int) -> UIColor {
         return collectionView.backgroundColor ?? UIColor.clear
     }
 }
@@ -43,6 +46,7 @@ private class UCollectionViewLayoutAattributes: UICollectionViewLayoutAttributes
 }
 
 private class UCollectionReusabelView: UICollectionReusableView {
+    
     override func apply(_ layoutAttributes: UICollectionViewLayoutAttributes) {
         super.apply(layoutAttributes)
         
@@ -55,6 +59,7 @@ private class UCollectionReusabelView: UICollectionReusableView {
 }
 
 class UCollectionViewSectionBackgroundLayout: UICollectionViewFlowLayout {
+    
     private var decorationViewAattrs: [UICollectionViewLayoutAttributes] = []
     
     override init() {

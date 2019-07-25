@@ -55,15 +55,16 @@ public class UCollectionViewAlignedLayout: UICollectionViewFlowLayout {
         return collectionViewWidth - sectionInset.left - sectionInset.right
     }
     
-    public init(horizontalAlignment: HorizontalAlignment = HorizontalAlignment.justified, verticalAlignment: VerticalAlignment = VerticalAlignment.center) {
+    public init(horizontalAlignment: HorizontalAlignment = .justified, verticalAlignment: VerticalAlignment = .center) {
         super.init()
         self.horizontalAlignment = horizontalAlignment
         self.verticalAlignment = verticalAlignment
     }
     
-    public required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
+    
     public override func layoutAttributesForItem(at indexPath: IndexPath) -> UICollectionViewLayoutAttributes? {
         guard let layoutAttributes = super.layoutAttributesForItem(at: indexPath)?.copy() as? UICollectionViewLayoutAttributes else {
             return nil
@@ -73,10 +74,18 @@ public class UCollectionViewAlignedLayout: UICollectionViewFlowLayout {
             layoutAttributes.alignHorizontally(collectionViewLayout: self)
         }
         if verticalAlignment != .center {
-            layoutAttributes.alignHorizontally(collectionViewLayout: self)
+            layoutAttributes.alignVertically(collectionViewLayout: self)
         }
         
         return layoutAttributes
+    }
+    
+    public override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
+        let layoutAttributesObjects = copy(super.layoutAttributesForElements(in: rect))
+        layoutAttributesObjects?.forEach({ (layoutAttributes) in
+            setFrame(forLayoutAttributes: layoutAttributes)
+        })
+        return layoutAttributesObjects
     }
     
     private func setFrame(forLayoutAttributes layoutAttributes: UICollectionViewLayoutAttributes) {
@@ -87,7 +96,8 @@ public class UCollectionViewAlignedLayout: UICollectionViewFlowLayout {
             }
         }
     }
-    fileprivate func originalLayoutAttrubute(forItemAt indexPath: IndexPath) -> UICollectionViewLayoutAttributes? {
+    
+    fileprivate func originalLayoutAttribute(forItemAt indexPath: IndexPath) -> UICollectionViewLayoutAttributes? {
         return super.layoutAttributesForItem(at: indexPath)
     }
     
@@ -96,7 +106,10 @@ public class UCollectionViewAlignedLayout: UICollectionViewFlowLayout {
             return false
         }
         let firstItemFrame = firstItemAttributes.frame
-        let lineFrame = CGRect(x: sectionInset.left, y: firstItemFrame.origin.y, width: lineWidth, height: firstItemFrame.size.height)
+        let lineFrame = CGRect(x: sectionInset.left,
+                               y: firstItemFrame.origin.y,
+                               width: lineWidth,
+                               height: firstItemFrame.size.height)
         return lineFrame.intersects(secondItemAttributes.frame)
     }
     
@@ -158,10 +171,10 @@ fileprivate extension UICollectionViewLayoutAttributes {
     }
     
     func isRepresentFirstItemInLine(collectionViewLayout: UCollectionViewAlignedLayout) -> Bool {
-        if currentItem < 0 {
+        if currentItem <= 0 {
             return true
         } else {
-            if let layoutAttributesFForPrecedingItem = collectionViewLayout.originalLayoutAttrubute(forItemAt: precedingIndexPath) {
+            if let layoutAttributesFForPrecedingItem = collectionViewLayout.originalLayoutAttribute(forItemAt: precedingIndexPath) {
                 return !collectionViewLayout.isFrame(for: self, inSameLineAsFrameFFor: layoutAttributesFForPrecedingItem)
             } else {
                 return true
@@ -177,7 +190,7 @@ fileprivate extension UICollectionViewLayoutAttributes {
         if currentItem >= itemCount - 1 {
             return true
         } else {
-            if let layoutAttributesForFollowingItem = collectionViewLayout.originalLayoutAttrubute(forItemAt: followingIndexPath) {
+            if let layoutAttributesForFollowingItem = collectionViewLayout.originalLayoutAttribute(forItemAt: followingIndexPath) {
                 return !collectionViewLayout.isFrame(for: self, inSameLineAsFrameFFor: layoutAttributesForFollowingItem)
             } else {
                 return true
