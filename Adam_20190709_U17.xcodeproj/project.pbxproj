@@ -76,6 +76,8 @@
 		7AB9801822D6E58A0079013B /* UComicCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9801722D6E58A0079013B /* UComicCCell.swift */; };
 		7ABD89AB22E99961003982A7 /* UMineHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABD89AA22E99961003982A7 /* UMineHead.swift */; };
 		7ABD89AD22E99B0D003982A7 /* USettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABD89AC22E99B0D003982A7 /* USettingViewController.swift */; };
+		7ABD89B022E9A82E003982A7 /* URankCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABD89AF22E9A82E003982A7 /* URankCCell.swift */; };
+		7ABD89B222E9A844003982A7 /* UTopCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABD89B122E9A844003982A7 /* UTopCCell.swift */; };
 		7AC222FA22E7E7BC002DAE79 /* USearchTHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC222F922E7E7BC002DAE79 /* USearchTHead.swift */; };
 		7AC222FC22E7E7DF002DAE79 /* USearchCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC222FB22E7E7DF002DAE79 /* USearchCCell.swift */; };
 		7AC222FE22E825C4002DAE79 /* UOtherWorksTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC222FD22E825C4002DAE79 /* UOtherWorksTCell.swift */; };
@@ -191,6 +193,8 @@
 		7AB9801722D6E58A0079013B /* UComicCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UComicCCell.swift; sourceTree = "<group>"; };
 		7ABD89AA22E99961003982A7 /* UMineHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMineHead.swift; sourceTree = "<group>"; };
 		7ABD89AC22E99B0D003982A7 /* USettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USettingViewController.swift; sourceTree = "<group>"; };
+		7ABD89AF22E9A82E003982A7 /* URankCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URankCCell.swift; sourceTree = "<group>"; };
+		7ABD89B122E9A844003982A7 /* UTopCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTopCCell.swift; sourceTree = "<group>"; };
 		7AC222F922E7E7BC002DAE79 /* USearchTHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USearchTHead.swift; sourceTree = "<group>"; };
 		7AC222FB22E7E7DF002DAE79 /* USearchCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USearchCCell.swift; sourceTree = "<group>"; };
 		7AC222FD22E825C4002DAE79 /* UOtherWorksTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UOtherWorksTCell.swift; sourceTree = "<group>"; };
@@ -497,6 +501,7 @@
 		7AB97FD422D5DEF60079013B /* Cate */ = {
 			isa = PBXGroup;
 			children = (
+				7ABD89AE22E9A80E003982A7 /* View */,
 				7AB97FFB22D6CB590079013B /* ViewController */,
 			);
 			path = Cate;
@@ -629,6 +634,15 @@
 			isa = PBXGroup;
 			children = (
 				7ABD89AA22E99961003982A7 /* UMineHead.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7ABD89AE22E9A80E003982A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7ABD89AF22E9A82E003982A7 /* URankCCell.swift */,
+				7ABD89B122E9A844003982A7 /* UTopCCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -868,10 +882,12 @@
 				7AB9800B22D6CE420079013B /* UCollectListViewController.swift in Sources */,
 				7AC2231222E84C4D002DAE79 /* UReadTopBar.swift in Sources */,
 				7AB97FDF22D5E0C70079013B /* UBaseTableViewCell.swift in Sources */,
+				7ABD89B222E9A844003982A7 /* UTopCCell.swift in Sources */,
 				7AB97FB622D4675B0079013B /* ArrayExtensions.swift in Sources */,
 				7AC2231622E93049002DAE79 /* UCommentTCell.swift in Sources */,
 				7AB9801422D6E1ED0079013B /* URankTCell.swift in Sources */,
 				7AB97FC322D480B70079013B /* UCollectionViewSectionBackgroundLayoutLayout.swift in Sources */,
+				7ABD89B022E9A82E003982A7 /* URankCCell.swift in Sources */,
 				7AB97FB322D4675B0079013B /* UHairPowder.swift in Sources */,
 				7A7F922B22E6AA44009CA992 /* UComicTCell.swift in Sources */,
 				7AB9801822D6E58A0079013B /* UComicCCell.swift in Sources */,

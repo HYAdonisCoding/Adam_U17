@@ -152,7 +152,7 @@ class UComicTCell: UBaseTableViewCell {
                 orderView.image = UIImage.init(named: "rank_frist")
             } else if indexPath.row == 1 {
                 orderView.image = UIImage.init(named: "rank_second")
-            } else if indexPath.row == 1 {
+            } else if indexPath.row == 2 {
                 orderView.image = UIImage.init(named: "rank_third")
             } else {
                 orderView.image = nil
