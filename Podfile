@@ -9,7 +9,7 @@ target 'Adam_20190709_U17' do
   pod 'SnapKitExtend'
   pod 'Then'
   pod 'Moya'
-  pod 'HandyJSON', '5.0.0-beta.1'
+  pod 'HandyJSON', '~> 5.0.1'
   pod 'Kingfisher'
   pod 'Reusable'
   pod 'LLCycleScrollView'
@@ -17,9 +17,9 @@ target 'Adam_20190709_U17' do
   pod 'MBProgressHUD'
   pod 'HMSegmentedControl'
   pod 'IQKeyboardManagerSwift'
-  pod 'EmptyDataSet-Swift'
-  pod 'UINavigation-SXFixSpace-Swift'
-
+  pod 'EmptyDataSet-Swift', '~> 5.0.0'
+#  pod 'UINavigation-SXFixSpace-Swift' #[DEPRECATED]
+pod 'UINavigation-SXFixSpace'
   target 'Adam_20190709_U17Tests' do
     inherit! :search_paths
     # Pods for testing

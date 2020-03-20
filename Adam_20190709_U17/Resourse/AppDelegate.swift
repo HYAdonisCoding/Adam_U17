@@ -10,7 +10,7 @@ import UIKit
 import CoreData
 import Alamofire
 import IQKeyboardManagerSwift
-import UINavigation_SXFixSpace_Swift
+import UINavigation_SXFixSpace
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -43,7 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         IQKeyboardManager.shared.shouldResignOnTouchOutside = true
         
         // MARK: - 导航栏间距调整
-        UINavigationSXFixSpace.shared.sx_defultFixSpace = 8
+//        UINavigationSXFixSpace.shared.sx_defultFixSpace = 8
         //        UINavigationSXFixSpace.shared.sx_fix
         // MARK: - 性别缓存
         let defaults = UserDefaults.standard
