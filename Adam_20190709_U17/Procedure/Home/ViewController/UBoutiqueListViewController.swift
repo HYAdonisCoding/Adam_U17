@@ -9,7 +9,7 @@
 import UIKit
 import LLCycleScrollView
 
-class UBoutiqueListViewController: UBaseViewController {
+class UBoutiqueListViewController: HYBaseViewController {
     private var sexType: Int = UserDefaults.standard.integer(forKey: String.sexTypeKey)
     private var galleryItems = [GalleryItemModel]()
     private var textItems = [TextItemModel]()
@@ -72,7 +72,7 @@ class UBoutiqueListViewController: UBaseViewController {
         let item = galleryItems[index]
         if item.linkType == 2 {
             guard let url = item.ext?.compactMap({ return $0.key == "url" ? $0.val : nil }).joined() else { return }
-            let vc = UWebViewController(url: url)
+            let vc = HYWebViewController(url: url)
             navigationController?.pushViewController(vc, animated: true)
         } else {
             guard let comicIdString = item.ext?.compactMap({ return $0.key == "comicId" ? $0.val : nil }).joined(), let comicId = Int(comicIdString) else { return }
@@ -142,10 +142,10 @@ extension UBoutiqueListViewController: UCollectionViewSectionBackgroundLayoutDel
             head.titleLabel.text = comicList.itemTitle
             head.moreActionClosure { [weak self] in
                 if comicList.comicType == .thematic {
-                    let vc = UPageViewController(titles: ["漫画", "次元"], vcs: [USpecialViewController(argCon: 2),USpecialViewController(argCon: 4)], pageStyle: .navgationBarSegment)
+                    let vc = HYPageViewController(titles: ["漫画", "次元"], vcs: [USpecialViewController(argCon: 2),USpecialViewController(argCon: 4)], pageStyle: .navgationBarSegment)
                     self?.navigationController?.pushViewController(vc, animated: true)
                 } else if comicList.comicType == .animation {
-                    let vc = UWebViewController(url: "http://m.u17.com/wap/cartoon/list")
+                    let vc = HYWebViewController(url: "http://m.u17.com/wap/cartoon/list")
                     vc.title = comicList.itemTitle
                     self?.navigationController?.pushViewController(vc, animated: true)
                 } else if comicList.comicType == .update {
@@ -225,7 +225,7 @@ extension UBoutiqueListViewController: UCollectionViewSectionBackgroundLayoutDel
         } else {
             if item.linkType == 2 {
                 guard let url = item.ext?.compactMap({ return $0.key == "url" ? $0.val : nil }).joined() else { return }
-                let vc = UWebViewController(url: url)
+                let vc = HYWebViewController(url: url)
                 navigationController?.pushViewController(vc, animated: true)
             } else {
                 let vc = UComicViewController(comicid: item.comicId)

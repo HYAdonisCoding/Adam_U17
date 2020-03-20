@@ -8,7 +8,7 @@
 
 import UIKit
 
-class URankCCell: UBaseCollectionViewCell {
+class URankCCell: HYBaseCollectionViewCell {
     
     private lazy var iconView: UIImageView = {
         let name = UIImageView()

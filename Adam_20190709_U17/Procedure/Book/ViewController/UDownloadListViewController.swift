@@ -8,6 +8,6 @@
 
 import Foundation
 
-class UDownloadListViewController: UBaseViewController {
+class UDownloadListViewController: HYBaseViewController {
     
 }

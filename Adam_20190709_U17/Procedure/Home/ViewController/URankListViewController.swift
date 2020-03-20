@@ -8,7 +8,7 @@
 
 import UIKit
 
-class URankListViewController: UBaseViewController {
+class URankListViewController: HYBaseViewController {
     private var rankList = [RankingModel]()
     
     private lazy var tableView: UITableView = {

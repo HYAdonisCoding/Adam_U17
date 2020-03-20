@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UCommentViewController: UBaseViewController {
+class UCommentViewController: HYBaseViewController {
 
     var detailStatic: DetailStaticModel?
     var commentList: CommentListModel? {

@@ -49,15 +49,15 @@
 		7AB97FCD22D5D36C0079013B /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FCC22D5D36C0079013B /* ParallaxHeaderMode.swift */; };
 		7AB97FCF22D5D3CE0079013B /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FCE22D5D3CE0079013B /* UIScrollView+ParallaxHeader.swift */; };
 		7AB97FD122D5D4750079013B /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FD022D5D4750079013B /* ParallaxHeader.swift */; };
-		7AB97FDB22D5DF6E0079013B /* UBaseTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FDA22D5DF6E0079013B /* UBaseTableViewHeaderFooterView.swift */; };
-		7AB97FDD22D5E05F0079013B /* UBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FDC22D5E05F0079013B /* UBaseCollectionViewCell.swift */; };
-		7AB97FDF22D5E0C70079013B /* UBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FDE22D5E0C70079013B /* UBaseTableViewCell.swift */; };
-		7AB97FE122D5E0D80079013B /* UBaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FE022D5E0D70079013B /* UBaseCollectionReusableView.swift */; };
-		7AB97FE422D5E17E0079013B /* UPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FE322D5E17E0079013B /* UPageViewController.swift */; };
-		7AB97FE622D5E18A0079013B /* UBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FE522D5E18A0079013B /* UBaseViewController.swift */; };
-		7AB97FE822D5E1970079013B /* UTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FE722D5E1970079013B /* UTabBarController.swift */; };
-		7AB97FEA22D5E1A40079013B /* UNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FE922D5E1A40079013B /* UNavigationController.swift */; };
-		7AB97FEC22D5E1B20079013B /* UWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FEB22D5E1B20079013B /* UWebViewController.swift */; };
+		7AB97FDB22D5DF6E0079013B /* HYBaseTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FDA22D5DF6E0079013B /* HYBaseTableViewHeaderFooterView.swift */; };
+		7AB97FDD22D5E05F0079013B /* HYBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FDC22D5E05F0079013B /* HYBaseCollectionViewCell.swift */; };
+		7AB97FDF22D5E0C70079013B /* HYBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FDE22D5E0C70079013B /* HYBaseTableViewCell.swift */; };
+		7AB97FE122D5E0D80079013B /* HYBaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FE022D5E0D70079013B /* HYBaseCollectionReusableView.swift */; };
+		7AB97FE422D5E17E0079013B /* HYPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FE322D5E17E0079013B /* HYPageViewController.swift */; };
+		7AB97FE622D5E18A0079013B /* HYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FE522D5E18A0079013B /* HYBaseViewController.swift */; };
+		7AB97FE822D5E1970079013B /* HYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FE722D5E1970079013B /* HYTabBarController.swift */; };
+		7AB97FEA22D5E1A40079013B /* HYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FE922D5E1A40079013B /* HYNavigationController.swift */; };
+		7AB97FEC22D5E1B20079013B /* HYWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FEB22D5E1B20079013B /* HYWebViewController.swift */; };
 		7AB97FEF22D6C7300079013B /* UHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FEE22D6C7300079013B /* UHomeViewController.swift */; };
 		7AB97FF222D6C7F60079013B /* USearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FF122D6C7F60079013B /* USearchViewController.swift */; };
 		7AB97FF422D6C8BF0079013B /* UBoutiqueListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB97FF322D6C8BF0079013B /* UBoutiqueListViewController.swift */; };
@@ -166,15 +166,15 @@
 		7AB97FCC22D5D36C0079013B /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderMode.swift; sourceTree = "<group>"; };
 		7AB97FCE22D5D3CE0079013B /* UIScrollView+ParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ParallaxHeader.swift"; sourceTree = "<group>"; };
 		7AB97FD022D5D4750079013B /* ParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
-		7AB97FDA22D5DF6E0079013B /* UBaseTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBaseTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
-		7AB97FDC22D5E05F0079013B /* UBaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBaseCollectionViewCell.swift; sourceTree = "<group>"; };
-		7AB97FDE22D5E0C70079013B /* UBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBaseTableViewCell.swift; sourceTree = "<group>"; };
-		7AB97FE022D5E0D70079013B /* UBaseCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBaseCollectionReusableView.swift; sourceTree = "<group>"; };
-		7AB97FE322D5E17E0079013B /* UPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPageViewController.swift; sourceTree = "<group>"; };
-		7AB97FE522D5E18A0079013B /* UBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBaseViewController.swift; sourceTree = "<group>"; };
-		7AB97FE722D5E1970079013B /* UTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTabBarController.swift; sourceTree = "<group>"; };
-		7AB97FE922D5E1A40079013B /* UNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNavigationController.swift; sourceTree = "<group>"; };
-		7AB97FEB22D5E1B20079013B /* UWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWebViewController.swift; sourceTree = "<group>"; };
+		7AB97FDA22D5DF6E0079013B /* HYBaseTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYBaseTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		7AB97FDC22D5E05F0079013B /* HYBaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYBaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		7AB97FDE22D5E0C70079013B /* HYBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYBaseTableViewCell.swift; sourceTree = "<group>"; };
+		7AB97FE022D5E0D70079013B /* HYBaseCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYBaseCollectionReusableView.swift; sourceTree = "<group>"; };
+		7AB97FE322D5E17E0079013B /* HYPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYPageViewController.swift; sourceTree = "<group>"; };
+		7AB97FE522D5E18A0079013B /* HYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYBaseViewController.swift; sourceTree = "<group>"; };
+		7AB97FE722D5E1970079013B /* HYTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYTabBarController.swift; sourceTree = "<group>"; };
+		7AB97FE922D5E1A40079013B /* HYNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYNavigationController.swift; sourceTree = "<group>"; };
+		7AB97FEB22D5E1B20079013B /* HYWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYWebViewController.swift; sourceTree = "<group>"; };
 		7AB97FEE22D6C7300079013B /* UHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UHomeViewController.swift; sourceTree = "<group>"; };
 		7AB97FF122D6C7F60079013B /* USearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USearchViewController.swift; sourceTree = "<group>"; };
 		7AB97FF322D6C8BF0079013B /* UBoutiqueListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBoutiqueListViewController.swift; sourceTree = "<group>"; };
@@ -546,10 +546,10 @@
 		7AB97FD922D5DF630079013B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7AB97FDA22D5DF6E0079013B /* UBaseTableViewHeaderFooterView.swift */,
-				7AB97FDC22D5E05F0079013B /* UBaseCollectionViewCell.swift */,
-				7AB97FDE22D5E0C70079013B /* UBaseTableViewCell.swift */,
-				7AB97FE022D5E0D70079013B /* UBaseCollectionReusableView.swift */,
+				7AB97FDA22D5DF6E0079013B /* HYBaseTableViewHeaderFooterView.swift */,
+				7AB97FDC22D5E05F0079013B /* HYBaseCollectionViewCell.swift */,
+				7AB97FDE22D5E0C70079013B /* HYBaseTableViewCell.swift */,
+				7AB97FE022D5E0D70079013B /* HYBaseCollectionReusableView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -557,11 +557,11 @@
 		7AB97FE222D5E15E0079013B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7AB97FE322D5E17E0079013B /* UPageViewController.swift */,
-				7AB97FE522D5E18A0079013B /* UBaseViewController.swift */,
-				7AB97FE722D5E1970079013B /* UTabBarController.swift */,
-				7AB97FE922D5E1A40079013B /* UNavigationController.swift */,
-				7AB97FEB22D5E1B20079013B /* UWebViewController.swift */,
+				7AB97FE322D5E17E0079013B /* HYPageViewController.swift */,
+				7AB97FE522D5E18A0079013B /* HYBaseViewController.swift */,
+				7AB97FE722D5E1970079013B /* HYTabBarController.swift */,
+				7AB97FE922D5E1A40079013B /* HYNavigationController.swift */,
+				7AB97FEB22D5E1B20079013B /* HYWebViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -881,7 +881,7 @@
 				7AC2230C22E83E4C002DAE79 /* UChapterCCell.swift in Sources */,
 				7AB9800B22D6CE420079013B /* UCollectListViewController.swift in Sources */,
 				7AC2231222E84C4D002DAE79 /* UReadTopBar.swift in Sources */,
-				7AB97FDF22D5E0C70079013B /* UBaseTableViewCell.swift in Sources */,
+				7AB97FDF22D5E0C70079013B /* HYBaseTableViewCell.swift in Sources */,
 				7ABD89B222E9A844003982A7 /* UTopCCell.swift in Sources */,
 				7AB97FB622D4675B0079013B /* ArrayExtensions.swift in Sources */,
 				7AC2231622E93049002DAE79 /* UCommentTCell.swift in Sources */,
@@ -900,7 +900,7 @@
 				7AC2230822E83437002DAE79 /* UOtherWorksCCell.swift in Sources */,
 				7AB97FC122D46A5C0079013B /* UCollectionViewAlignedLayout.swift in Sources */,
 				7AB97F9B22D467400079013B /* HYAPI.swift in Sources */,
-				7AB97FDB22D5DF6E0079013B /* UBaseTableViewHeaderFooterView.swift in Sources */,
+				7AB97FDB22D5DF6E0079013B /* HYBaseTableViewHeaderFooterView.swift in Sources */,
 				7AC2230622E830FC002DAE79 /* UOtherWorksViewController.swift in Sources */,
 				7AB97F6E22D464610079013B /* Adam_20190709_U17.xcdatamodeld in Sources */,
 				7AC2231422E84DDD002DAE79 /* UReadBottomBar.swift in Sources */,
@@ -919,26 +919,26 @@
 				7AB97FB522D4675B0079013B /* UNoticeBar.swift in Sources */,
 				7AB97FBC22D4675B0079013B /* DispatchQueueExtension.swift in Sources */,
 				7ABD89AD22E99B0D003982A7 /* USettingViewController.swift in Sources */,
-				7AB97FDD22D5E05F0079013B /* UBaseCollectionViewCell.swift in Sources */,
+				7AB97FDD22D5E05F0079013B /* HYBaseCollectionViewCell.swift in Sources */,
 				7AB97FC622D5C72D0079013B /* URefresh.swift in Sources */,
 				7AB97FB422D4675B0079013B /* UModel.swift in Sources */,
 				7A7F923122E6B4C5009CA992 /* UChapterViewController.swift in Sources */,
 				7AB97FFD22D6CB640079013B /* UCateListViewController.swift in Sources */,
 				7AB97FB722D4675B0079013B /* UIColorExtension.swift in Sources */,
-				7AB97FE422D5E17E0079013B /* UPageViewController.swift in Sources */,
+				7AB97FE422D5E17E0079013B /* HYPageViewController.swift in Sources */,
 				7AB9800022D6CB910079013B /* UBookViewController.swift in Sources */,
 				7AB97FC922D5CC170079013B /* UEmptyDataSet.swift in Sources */,
 				7AB97FF422D6C8BF0079013B /* UBoutiqueListViewController.swift in Sources */,
 				7AB9800D22D6CE5C0079013B /* UDocumentListViewController.swift in Sources */,
 				7AB97FBA22D4675B0079013B /* UIDeviceExtension.swift in Sources */,
 				7AB9801222D6DE8D0079013B /* UComicCHead.swift in Sources */,
-				7AB97FE122D5E0D80079013B /* UBaseCollectionReusableView.swift in Sources */,
+				7AB97FE122D5E0D80079013B /* HYBaseCollectionReusableView.swift in Sources */,
 				7A7F923922E6F108009CA992 /* USpecialViewController.swift in Sources */,
 				7A7F922D22E6B287009CA992 /* UComicViewController.swift in Sources */,
 				7AC2230A22E83BB6002DAE79 /* UChapterCHead.swift in Sources */,
 				7AB97FCD22D5D36C0079013B /* ParallaxHeaderMode.swift in Sources */,
 				7AC2230E22E841DB002DAE79 /* UReadViewController.swift in Sources */,
-				7AB97FE622D5E18A0079013B /* UBaseViewController.swift in Sources */,
+				7AB97FE622D5E18A0079013B /* HYBaseViewController.swift in Sources */,
 				7AB97FBB22D4675B0079013B /* UIImageExtensions.swift in Sources */,
 				7AC222FE22E825C4002DAE79 /* UOtherWorksTCell.swift in Sources */,
 				7AC2230022E8268C002DAE79 /* UDescriptionTCell.swift in Sources */,
@@ -947,11 +947,11 @@
 				7AC2230222E828C6002DAE79 /* UTicketTCell.swift in Sources */,
 				7AB9801622D6E5540079013B /* UComicCFoot.swift in Sources */,
 				7AB97FB122D4675B0079013B /* Global.swift in Sources */,
-				7AB97FEC22D5E1B20079013B /* UWebViewController.swift in Sources */,
+				7AB97FEC22D5E1B20079013B /* HYWebViewController.swift in Sources */,
 				7AB97F6622D464610079013B /* AppDelegate.swift in Sources */,
-				7AB97FE822D5E1970079013B /* UTabBarController.swift in Sources */,
+				7AB97FE822D5E1970079013B /* HYTabBarController.swift in Sources */,
 				7AB97FF222D6C7F60079013B /* USearchViewController.swift in Sources */,
-				7AB97FEA22D5E1A40079013B /* UNavigationController.swift in Sources */,
+				7AB97FEA22D5E1A40079013B /* HYNavigationController.swift in Sources */,
 				7AB97FEF22D6C7300079013B /* UHomeViewController.swift in Sources */,
 				7A7F923722E6F0EA009CA992 /* UUpdateListViewController.swift in Sources */,
 				7A7F923522E6B747009CA992 /* UComicHead.swift in Sources */,

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class USearchCCell: UBaseCollectionViewCell {
+class USearchCCell: HYBaseCollectionViewCell {
     lazy var titleLabel: UILabel = {
         let tl = UILabel()
         tl.textAlignment = .center
@@ -32,7 +32,7 @@ protocol USearchTFootDelegate: class {
     func searchTFFoot(_ searchTFoot: USearchTFoot, didSelectItemAt index: Int, _ model: SearchItemModel)
 }
 
-class USearchTFoot: UBaseTableViewHeaderFooterView {
+class USearchTFoot: HYBaseTableViewHeaderFooterView {
     weak var delegate: USearchTFootDelegate?
     
     private var didSelectIndexClosure: USearchTFootDidSelectIndexClosure?

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UOtherWorksViewController: UBaseViewController {
+class UOtherWorksViewController: HYBaseViewController {
     
     var otherWorks: [OtherWorkModel]?
     

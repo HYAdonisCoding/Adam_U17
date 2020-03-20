@@ -15,7 +15,7 @@ protocol USearchTHeadDelegate: class {
 }
 
 
-class USearchTHead: UBaseTableViewHeaderFooterView {
+class USearchTHead: HYBaseTableViewHeaderFooterView {
 
     weak var delegate: USearchTHeadDelegate?
     

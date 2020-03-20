@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UComicTCell: UBaseTableViewCell {
+class UComicTCell: HYBaseTableViewCell {
     var spinnerName: String?
     
     lazy var iconView: UIImageView = {

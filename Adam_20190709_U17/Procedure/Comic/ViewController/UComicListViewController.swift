@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UComicListViewController: UBaseViewController {
+class UComicListViewController: HYBaseViewController {
     private var argCon: Int = 0
     private var argName: String?
     private var argValue: Int = 0

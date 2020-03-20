@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UHomeViewController: UPageViewController {
+class UHomeViewController: HYPageViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }

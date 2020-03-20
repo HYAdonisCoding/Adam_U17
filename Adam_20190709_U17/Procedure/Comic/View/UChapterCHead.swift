@@ -10,7 +10,7 @@ import UIKit
 
 typealias UChapterCHeadSortClosure = (_ button: UIButton) -> Void
 
-class UChapterCHead: UBaseCollectionReusableView {
+class UChapterCHead: HYBaseCollectionReusableView {
     private var sortClosure: UChapterCHeadSortClosure?
     
     private lazy var chapterLabel: UILabel = {

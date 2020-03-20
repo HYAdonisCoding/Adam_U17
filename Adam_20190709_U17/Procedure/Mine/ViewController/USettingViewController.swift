@@ -8,7 +8,7 @@
 
 import UIKit
 
-class USettingViewController: UBaseViewController {
+class USettingViewController: HYBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

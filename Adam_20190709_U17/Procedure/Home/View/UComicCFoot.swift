@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UComicCFoot: UBaseCollectionReusableView {
+class UComicCFoot: HYBaseCollectionReusableView {
     override func configUI() {
         backgroundColor = UIColor.background
     }

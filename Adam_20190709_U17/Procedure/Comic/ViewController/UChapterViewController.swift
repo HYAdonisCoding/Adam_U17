@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UChapterViewController: UBaseViewController {
+class UChapterViewController: HYBaseViewController {
 
     private var isPositive: Bool = true
     

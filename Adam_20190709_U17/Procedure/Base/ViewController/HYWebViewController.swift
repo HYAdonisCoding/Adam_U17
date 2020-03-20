@@ -1,5 +1,5 @@
 //
-//  UWebViewController.swift
+//  HYWebViewController.swift
 //  Adam_20190709_U17
 //
 //  Created by Adonis_HongYang on 2019/7/10.
@@ -9,7 +9,7 @@
 import UIKit
 import WebKit
 
-class UWebViewController: UBaseViewController {
+class HYWebViewController: HYBaseViewController {
     var request: URLRequest!
     
     private let estimatedProgress = "estimatedProgress"
@@ -74,7 +74,7 @@ class UWebViewController: UBaseViewController {
     }
 }
 
-extension UWebViewController: WKNavigationDelegate, WKUIDelegate {
+extension HYWebViewController: WKNavigationDelegate, WKUIDelegate {
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         if keyPath == estimatedProgress {
             progressView.isHidden = webView.estimatedProgress >= 1

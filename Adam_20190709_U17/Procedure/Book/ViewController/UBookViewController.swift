@@ -8,7 +8,7 @@
 
 import Foundation
 
-class UBookViewController: UPageViewController {
+class UBookViewController: HYPageViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }

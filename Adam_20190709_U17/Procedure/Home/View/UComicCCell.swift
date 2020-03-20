@@ -14,7 +14,7 @@ enum UComicCCellStyle {
     case withTitleAndDesc
 }
 
-class UComicCCell: UBaseCollectionViewCell {
+class UComicCCell: HYBaseCollectionViewCell {
     private lazy var iconView: UIImageView = {
         let iv = UIImageView()
         iv.contentMode = ContentMode.scaleAspectFill

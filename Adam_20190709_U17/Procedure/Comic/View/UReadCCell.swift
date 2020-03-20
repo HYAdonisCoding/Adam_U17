@@ -11,7 +11,7 @@ import Kingfisher
 
 extension UIImageView: Placeholder {}
 
-class UReadCCell: UBaseCollectionViewCell {
+class UReadCCell: HYBaseCollectionViewCell {
     lazy var imageView: UIImageView = {
         let name = UIImageView()
         name.contentMode = .scaleAspectFit

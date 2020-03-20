@@ -10,7 +10,7 @@ import UIKit
 
 typealias UGuessLikeTCellDidSelectClosure = (_ comic: ComicModel) -> Void
 
-class UGuessLikeTCell: UBaseTableViewCell {
+class UGuessLikeTCell: HYBaseTableViewCell {
 
     private var didSelectClosure: UGuessLikeTCellDidSelectClosure?
     

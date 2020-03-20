@@ -8,6 +8,6 @@
 
 import Foundation
 
-class UDocumentListViewController: UBaseViewController {
+class UDocumentListViewController: HYBaseViewController {
     
 }

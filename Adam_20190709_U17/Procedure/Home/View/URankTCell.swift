@@ -8,7 +8,7 @@
 
 import UIKit
 
-class URankTCell: UBaseTableViewCell {
+class URankTCell: HYBaseTableViewCell {
     lazy var iconView: UIImageView = {
         let iw = UIImageView()
         iw.contentMode = UIView.ContentMode.scaleAspectFill

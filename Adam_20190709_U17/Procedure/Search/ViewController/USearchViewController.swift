@@ -9,7 +9,7 @@
 import UIKit
 import Moya
 
-class USearchViewController: UBaseViewController {
+class USearchViewController: HYBaseViewController {
     private var currentRequest: Cancellable?
     
     private var hotItems: [SearchItemModel]?
@@ -44,7 +44,7 @@ class USearchViewController: UBaseViewController {
         tw.delegate = self
         tw.dataSource = self
         tw.register(headerFooterViewType: USearchTHead.self)
-        tw.register(cellType: UBaseTableViewCell.self)
+        tw.register(cellType: HYBaseTableViewCell.self)
         tw.register(headerFooterViewType: USearchTFoot.self)
         return tw
     }()
@@ -54,7 +54,7 @@ class USearchViewController: UBaseViewController {
         sw.delegate = self
         sw.dataSource = self
         sw.register(headerFooterViewType: USearchTHead.self)
-        sw.register(cellType: UBaseTableViewCell.self)
+        sw.register(cellType: HYBaseTableViewCell.self)
         return sw
     }()
     
@@ -204,14 +204,14 @@ extension USearchViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if tableView == historyTableView {
-            let cell = tableView.dequeueReusableCell(for: indexPath, cellType: UBaseTableViewCell.self)
+            let cell = tableView.dequeueReusableCell(for: indexPath, cellType: HYBaseTableViewCell.self)
             cell.textLabel?.text = searchHistory[indexPath.row]
             cell.textLabel?.textColor = UIColor.darkGray
             cell.textLabel?.font = UIFont.systemFont(ofSize: 13)
             cell.separatorInset = .zero
             return cell
         } else if tableView == searchTableView {
-            let cell = tableView.dequeueReusableCell(for: indexPath, cellType: UBaseTableViewCell.self)
+            let cell = tableView.dequeueReusableCell(for: indexPath, cellType: HYBaseTableViewCell.self)
             cell.textLabel?.text = relative?[indexPath.row].name
             cell.textLabel?.textColor = UIColor.darkGray
             cell.textLabel?.font = UIFont.systemFont(ofSize: 13)
@@ -222,7 +222,7 @@ extension USearchViewController: UITableViewDelegate, UITableViewDataSource {
             cell.model = comics?[indexPath.row]
             return cell
         } else {
-            let cell = tableView.dequeueReusableCell(for: indexPath, cellType: UBaseTableViewCell.self)
+            let cell = tableView.dequeueReusableCell(for: indexPath, cellType: HYBaseTableViewCell.self)
             return cell
         }
     }

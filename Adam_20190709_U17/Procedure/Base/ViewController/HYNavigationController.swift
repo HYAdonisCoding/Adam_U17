@@ -1,5 +1,5 @@
 //
-//  UNavigationController.swift
+//  HYNavigationController.swift
 //  Adam_20190709_U17
 //
 //  Created by Adonis_HongYang on 2019/7/10.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-enum UNavigationBarStyle {
+enum HYNavigationBarStyle {
     case theme
     case clear
     case white
 }
 
-class UNavigationController: UINavigationController {
+class HYNavigationController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
         guard let interactionGes = interactivePopGestureRecognizer else {
@@ -45,7 +45,7 @@ class UNavigationController: UINavigationController {
     }
 }
 
-extension UNavigationController: UIGestureRecognizerDelegate {
+extension HYNavigationController: UIGestureRecognizerDelegate {
     func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
         let isLeftToRight = UIApplication.shared.userInterfaceLayoutDirection == .leftToRight
         guard let ges = gestureRecognizer as? UIPanGestureRecognizer else {
@@ -58,7 +58,7 @@ extension UNavigationController: UIGestureRecognizerDelegate {
     }
 }
 
-extension UNavigationController {
+extension HYNavigationController {
     override var preferredStatusBarStyle: UIStatusBarStyle {
         guard let topVC = topViewController else {
             return .lightContent
@@ -82,7 +82,7 @@ extension UINavigationController {
         }
     }
     
-    func barStyle(_ style: UNavigationBarStyle) {
+    func barStyle(_ style: HYNavigationBarStyle) {
         switch style {
         case .theme:
             navigationBar.barStyle = .black

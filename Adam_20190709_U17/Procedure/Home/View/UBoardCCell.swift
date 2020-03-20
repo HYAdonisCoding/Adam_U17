@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UBoardCCell: UBaseCollectionViewCell {
+class UBoardCCell: HYBaseCollectionViewCell {
     
     private lazy var iconView: UIImageView = {
         let cv = UIImageView()

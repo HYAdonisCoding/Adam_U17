@@ -1,5 +1,5 @@
 //
-//  UPageViewController.swift
+//  HYPageViewController.swift
 //  Adam_20190709_U17
 //
 //  Created by Adonis_HongYang on 2019/7/10.
@@ -15,7 +15,7 @@ enum UPageStyle {
     case topTabBar
 }
 
-class UPageViewController: UBaseViewController {
+class HYPageViewController: HYBaseViewController {
     
     var pageStyle: UPageStyle!
     
@@ -112,7 +112,7 @@ class UPageViewController: UBaseViewController {
     }
 }
 
-extension UPageViewController: UIPageViewControllerDataSource, UIPageViewControllerDelegate {
+extension HYPageViewController: UIPageViewControllerDataSource, UIPageViewControllerDelegate {
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         guard let index = vcs.firstIndex(of: viewController) else { return nil }
         let beforeIndex = index - 1

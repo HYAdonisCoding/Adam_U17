@@ -8,7 +8,7 @@
 
 import UIKit
 
-class USpecialTCell: UBaseTableViewCell {
+class USpecialTCell: HYBaseTableViewCell {
 
     lazy var coverView: UIImageView = {
         let tl = UIImageView()

@@ -14,7 +14,7 @@ protocol UComicCHeadDelegate: class {
     func comicCHead(_ comicCHead: UComicCHead, moreAction button: UIButton)
 }
 
-class UComicCHead: UBaseCollectionReusableView {
+class UComicCHead: HYBaseCollectionReusableView {
     weak var delegate: UComicCHeadDelegate?
     
     private var moreActionClosure: UComicCHeadMoreActionClosure?

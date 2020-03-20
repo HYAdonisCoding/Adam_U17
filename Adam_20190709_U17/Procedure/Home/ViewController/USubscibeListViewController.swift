@@ -8,7 +8,7 @@
 
 import UIKit
 
-class USubscibeListViewController: UBaseViewController {
+class USubscibeListViewController: HYBaseViewController {
     private var subscribeList = [ComicListModel]()
     
     private lazy var collectionView: UICollectionView = {

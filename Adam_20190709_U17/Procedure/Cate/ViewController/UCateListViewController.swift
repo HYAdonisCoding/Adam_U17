@@ -9,7 +9,7 @@
 import UIKit
 import MJRefresh
 
-class UCateListViewController: UBaseViewController {
+class UCateListViewController: HYBaseViewController {
     
     private var searchString = ""
     private var topList = [TopModel]()
@@ -125,7 +125,7 @@ extension UCateListViewController: UICollectionViewDelegateFlowLayout, UICollect
                 guard let tabTitle = tab.tabTitle else { continue }
                 titles.append(tabTitle)
                 vcs.append(UComicListViewController(argCon: tab.argCon, argName: tab.argName, argValue: tab.argValue))
-                let vc = UPageViewController(titles: titles, vcs: vcs, pageStyle: .topTabBar)
+                let vc = HYPageViewController(titles: titles, vcs: vcs, pageStyle: .topTabBar)
                 vc.title = model.sortName
                 navigationController?.pushViewController(vc, animated: true)
             }

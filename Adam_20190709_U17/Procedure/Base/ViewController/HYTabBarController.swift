@@ -1,5 +1,5 @@
 //
-//  UTabBarController.swift
+//  HYTabBarController.swift
 //  Adam_20190709_U17
 //
 //  Created by Adonis_HongYang on 2019/7/10.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UTabBarController: UITabBarController {
+class HYTabBarController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,12 +52,12 @@ class UTabBarController: UITabBarController {
         if UIDevice.current.userInterfaceIdiom == .phone {
             childController.tabBarItem.imageInsets = UIEdgeInsets(top: 6, left: 0, bottom: -6, right: 0)
         }
-        addChild(UNavigationController(rootViewController: childController))
+        addChild(HYNavigationController(rootViewController: childController))
     }
     
 }
 
-extension UTabBarController {
+extension HYTabBarController {
     override var preferredStatusBarStyle: UIStatusBarStyle {
         guard let select = selectedViewController else {
             return .lightContent

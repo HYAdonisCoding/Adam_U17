@@ -1,5 +1,5 @@
 //
-//  UBaseTableViewCell.swift
+//  HYBaseTableViewHeaderFooterView.swift
 //  Adam_20190709_U17
 //
 //  Created by Adonis_HongYang on 2019/7/10.
@@ -9,10 +9,9 @@
 import UIKit
 import Reusable
 
-class UBaseTableViewCell: UITableViewCell, Reusable {
-    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-        super.init(style: style, reuseIdentifier: reuseIdentifier)
-        selectionStyle = .none
+class HYBaseTableViewHeaderFooterView: UITableViewHeaderFooterView, Reusable {
+    override init(reuseIdentifier: String?) {
+        super.init(reuseIdentifier: reuseIdentifier)
         configUI()
     }
     

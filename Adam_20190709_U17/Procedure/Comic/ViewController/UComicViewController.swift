@@ -12,7 +12,7 @@ protocol UComicViewWillEndDraggingDelegate: class {
     func comicWillEndDragging(_ scrollView: UIScrollView)
 }
 
-class UComicViewController: UBaseViewController {
+class UComicViewController: HYBaseViewController {
 
     private var comicid: Int = 0
     
@@ -44,8 +44,8 @@ class UComicViewController: UBaseViewController {
         return dc
     }()
     
-    private lazy var pageVC: UPageViewController = {
-        let dc = UPageViewController(titles: ["详情", "目录", "评论"],
+    private lazy var pageVC: HYPageViewController = {
+        let dc = HYPageViewController(titles: ["详情", "目录", "评论"],
                                      vcs: [detailVC, chapterVC, commentVC],
                                      pageStyle: .topTabBar)
         return dc

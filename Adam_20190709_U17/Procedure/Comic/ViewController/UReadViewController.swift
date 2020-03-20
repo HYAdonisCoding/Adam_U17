@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UReadViewController: UBaseViewController {
+class UReadViewController: HYBaseViewController {
     
     var edgeInsets: UIEdgeInsets {
         if #available(iOS 11.0, *) {

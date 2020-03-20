@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UVIPListViewController: UBaseViewController {
+class UVIPListViewController: HYBaseViewController {
     private var vipList = [ComicListModel]()
     
     private lazy var collectionView: UICollectionView = {

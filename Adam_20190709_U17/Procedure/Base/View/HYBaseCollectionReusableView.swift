@@ -1,5 +1,5 @@
 //
-//  UBaseTableViewHeaderFooterView.swift
+//  HYBaseCollectionReusableView.swift
 //  Adam_20190709_U17
 //
 //  Created by Adonis_HongYang on 2019/7/10.
@@ -9,9 +9,9 @@
 import UIKit
 import Reusable
 
-class UBaseTableViewHeaderFooterView: UITableViewHeaderFooterView, Reusable {
-    override init(reuseIdentifier: String?) {
-        super.init(reuseIdentifier: reuseIdentifier)
+class HYBaseCollectionReusableView: UICollectionReusableView, Reusable {
+    override init(frame: CGRect) {
+        super.init(frame: frame)
         configUI()
     }
     

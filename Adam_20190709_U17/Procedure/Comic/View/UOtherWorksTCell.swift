@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UOtherWorksTCell: UBaseTableViewCell {
+class UOtherWorksTCell: HYBaseTableViewCell {
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: .value1, reuseIdentifier: reuseIdentifier)

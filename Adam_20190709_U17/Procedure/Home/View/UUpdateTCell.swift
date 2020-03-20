@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UUpdateTCell: UBaseTableViewCell {
+class UUpdateTCell: HYBaseTableViewCell {
     
     private lazy var coverView: UIImageView = {
         let cv = UIImageView()

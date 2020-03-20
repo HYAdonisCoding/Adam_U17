@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UTopCCell: UBaseCollectionViewCell {
+class UTopCCell: HYBaseCollectionViewCell {
     private lazy var iconView: UIImageView = {
         let name = UIImageView()
         name.contentMode = .scaleAspectFill

@@ -8,6 +8,6 @@
 
 import Foundation
 
-class UCollectListViewController: UBaseViewController {
+class UCollectListViewController: HYBaseViewController {
     
 }

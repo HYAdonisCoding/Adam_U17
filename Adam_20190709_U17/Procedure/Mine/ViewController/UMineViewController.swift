@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UMineViewController: UBaseViewController {
+class UMineViewController: HYBaseViewController {
     
     private lazy var myArray: Array = {
         return [[["icon":"mine_vip", "title": "我的VIP"],
@@ -44,7 +44,7 @@ class UMineViewController: UBaseViewController {
         name.backgroundColor = UIColor.background
         name.delegate = self
         name.dataSource = self
-        name.register(cellType: UBaseTableViewCell.self)
+        name.register(cellType: HYBaseTableViewCell.self)
         return name
     }()
     
@@ -97,7 +97,7 @@ extension UMineViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(for: indexPath, cellType: UBaseTableViewCell.self)
+        let cell = tableView.dequeueReusableCell(for: indexPath, cellType: HYBaseTableViewCell.self)
         cell.accessoryType = .disclosureIndicator
         cell.selectionStyle = .default
         let sectionArray = myArray[indexPath.section]

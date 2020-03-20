@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UUpdateListViewController: UBaseViewController {
+class UUpdateListViewController: HYBaseViewController {
 
     private var argCon: Int = 0
     private var argName: String?
@@ -87,7 +87,7 @@ extension UUpdateListViewController: UITableViewDelegate, UITableViewDataSource 
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vc = UBaseViewController()
+        let vc = HYBaseViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
     

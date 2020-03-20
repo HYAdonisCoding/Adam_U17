@@ -1,5 +1,5 @@
 //
-//  UBaseCollectionViewCell.swift
+//  HYBaseTableViewCell.swift
 //  Adam_20190709_U17
 //
 //  Created by Adonis_HongYang on 2019/7/10.
@@ -9,9 +9,10 @@
 import UIKit
 import Reusable
 
-class UBaseCollectionViewCell: UICollectionViewCell, Reusable {
-    override init(frame: CGRect) {
-        super.init(frame: frame)
+class HYBaseTableViewCell: UITableViewCell, Reusable {
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        selectionStyle = .none
         configUI()
     }
     

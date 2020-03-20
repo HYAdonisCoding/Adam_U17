@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UDetailViewController: UBaseViewController {
+class UDetailViewController: HYBaseViewController {
     
     weak var delegate: UComicViewWillEndDraggingDelegate?
     

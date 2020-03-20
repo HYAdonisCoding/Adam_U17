@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UCommentTCell: UBaseTableViewCell {
+class UCommentTCell: HYBaseTableViewCell {
     lazy var iconView: UIImageView = {
         let name = UIImageView()
         name.contentMode = .scaleAspectFill

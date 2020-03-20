@@ -8,7 +8,7 @@
 
 import UIKit
 
-class USpecialViewController: UBaseViewController {
+class USpecialViewController: HYBaseViewController {
     
     private var page: Int = 1
     private var argCon: Int = 0
@@ -95,7 +95,7 @@ extension USpecialViewController: UITableViewDelegate, UITableViewDataSource {
         }
         let path = "special_id=\(item.specialId)&is_comment=\(item.isComment)"
         let url = [host, path].joined(separator: "?")
-        let vc = UWebViewController(url: url)
+        let vc = HYWebViewController(url: url)
         navigationController?.pushViewController(vc, animated: true)
     }
     

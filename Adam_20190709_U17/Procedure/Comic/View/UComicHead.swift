@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UComicHeadCCell: UBaseCollectionViewCell {
+class UComicHeadCCell: HYBaseCollectionViewCell {
     lazy var titleLabel: UILabel = {
         let tl = UILabel()
         tl.textColor = UIColor.white

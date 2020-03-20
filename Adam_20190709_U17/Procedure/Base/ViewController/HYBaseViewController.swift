@@ -1,5 +1,5 @@
 //
-//  UBaseViewController.swift
+//  HYBaseViewController.swift
 //  Adam_20190709_U17
 //
 //  Created by Adonis_HongYang on 2019/7/10.
@@ -12,7 +12,7 @@ import Then
 import Reusable
 import Kingfisher
 
-class UBaseViewController: UIViewController {
+class HYBaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("\(self) viewDidLoad")
@@ -58,7 +58,7 @@ class UBaseViewController: UIViewController {
     }
 }
 
-extension UBaseViewController {
+extension HYBaseViewController {
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
