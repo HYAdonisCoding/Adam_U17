@@ -32,7 +32,7 @@ class HYNavigationController: UINavigationController {
         let action = Selector(("handleNavigationTransition:"))
         
         let fullScreenGesture = UIPanGestureRecognizer(target: internalTarget, action: action)
-        fullScreenGesture.delegate = self as? UIGestureRecognizerDelegate
+        fullScreenGesture.delegate = self
         targetView.addGestureRecognizer(fullScreenGesture)
         interactionGes.isEnabled = false
     }

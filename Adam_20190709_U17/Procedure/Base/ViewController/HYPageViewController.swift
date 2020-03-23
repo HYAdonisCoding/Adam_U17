@@ -134,7 +134,7 @@ extension HYPageViewController: UIPageViewControllerDataSource, UIPageViewContro
         }
         currentSelectIndex = index
         segment.setSelectedSegmentIndex(UInt(index), animated: true)
-        guard titles != nil && pageStyle == .none else { return }
+        guard titles != nil && pageStyle == UPageStyle.none else { return }
         navigationItem.title = titles[index]
     }
 }
